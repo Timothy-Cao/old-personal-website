@@ -49,6 +49,9 @@ layout: page
   label, input, button {
       margin-bottom: 10px;
   }
+      #result-container {
+      /* Add any specific styling here */
+    }
 </style>
 
 Which one is the lie?
@@ -120,7 +123,11 @@ Which one is the lie?
 
 <div id="statements"></div>
 <button class="statement-button" id="restart-button" onclick="startGame()" style="display:none;">Restart Game</button>
-<p id="result"></p>
+</div>
+<p id="loading">Loading...</p> 
+<div id="result-container">
+  <p id="result"></p>
+</div>
 
 ## Your turn! I will Guess
 
