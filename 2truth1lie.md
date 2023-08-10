@@ -28,7 +28,6 @@ layout: page
   }
 </style>
 
-<div id="loading">Loading...</div>
 
 Which one is the lie?
 
