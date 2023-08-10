@@ -26,7 +26,25 @@ layout: page
   .incorrect-answer {
     background-color: #dc3545;
   }
+
+    @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+
+  #loading {
+    display: none;
+    border: 4px solid rgba(0, 0, 0, 0.1);
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    border-left: 4px solid #000;
+    animation: spin 1s linear infinite;
+    margin: 10px auto;
+  }
 </style>
+
+
 
 <div id="loading">Loading...</div>
 
@@ -117,7 +135,8 @@ Enter three statements and the AI try to guess which one is a lie.
     <input type="text" id="statement3" required><br><br>
     <button class="statement-button" id="guess-button" onclick="guessLie()" style="display:inline-block;">Guess your lie</button>
 </div>
-<p id="loading">Loading...</p> 
+<div id="loading"></div>
+
 <p id="result"></p>
 
 <style>
