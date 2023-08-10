@@ -5,6 +5,18 @@ layout: page
 ---
 
 <style>
+      .input-form {
+        margin: 20px 0;
+    }
+    label, input, button {
+        margin-bottom: 10px;
+    }
+    
+    #loading {
+        display: none;
+        font-size: 16px;
+        margin-top: 10px;
+    }
   .statement-button {
     background-color: #007bff;
     border: none;
@@ -119,20 +131,6 @@ Enter three statements and the AI try to guess which one is a lie.
 <p id="loading">Loading...</p> 
 <p id="result"></p>
 
-<style>
-    .input-form {
-        margin: 20px 0;
-    }
-    label, input, button {
-        margin-bottom: 10px;
-    }
-    
-    #loading {
-        display: none;
-        font-size: 16px;
-        margin-top: 10px;
-    }
-</style>
 
 <script>
   async function guessLie() {
