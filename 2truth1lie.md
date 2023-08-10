@@ -190,7 +190,6 @@ Enter three statements and the AI try to guess which one is a lie.
       const result = await response.json();
       document.getElementById("result").innerHTML = result.lieGuess;
       document.getElementById("guess-button").style.display = "inline-block"; // Show the guess button again
-      document.getElementById("restart-button").style.display = "inline-block";
     } catch (error) {
       console.error("There was an error:", error);
       document.getElementById("result").innerHTML =
