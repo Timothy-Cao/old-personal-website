@@ -107,17 +107,23 @@ Which one is the lie?
   }
 
 function checkAnswer(index) {
-  var buttons = document.querySelectorAll(".statement-button:not(#restart-button)");
+  var buttons = document.querySelectorAll(".statement-button");
+  var chosenStatement = window.chosenStatements[index];
 
   for (var i = 0; i < buttons.length; i++) {
-    var statement = window.chosenStatements[i];
     buttons[i].disabled = true;
-    buttons[i].classList.add(statement.isLie ? "incorrect-answer" : "correct-answer");
+    buttons[i].classList.add(window.chosenStatements[i].isLie ? "incorrect-answer" : "correct-answer");
   }
 
+  if (chosenStatement.isLie) {
+    document.getElementById("result").innerHTML = "Correct! That was the lie.";
+  } else {
+    document.getElementById("result").innerHTML = "Incorrect. That was not the lie.";
+  }
 
-  document.getElementById("restart-button").style.display = "inline-block";
+  document.getElementById("restart-button").style.display = "inline-block"; // Show the restart button
 }
+
 
 
   window.onload = startGame;
