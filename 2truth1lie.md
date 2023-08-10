@@ -56,11 +56,28 @@ Which one is the lie?
 <script type="text/javascript">
   var truths = [
     "My favourite KDrama is Business Proposal",
-    // Add more truths as needed...
+    "I learned how to juggle accidentally",
+    "I almost fell off a roller coaster",
+    "I once tuned my piano with chopsticks",
+    "I have a family of amongus plushies",
+    "I've never eaten pasta while visiting Italy",
+    "I've experienced sleep paralysis",
+    "I had a positive experience with chef's plate",
+    "I've held a snake in my hands",
+    "I can circular breathe",
+    "My favourite video game is It Takes Two",
+    "I've never dyed my hair, got a tattoo or a piercing"
   ];
   var lies = [
     "I let my plant die despite being fake",
-    // Add more lies as needed...
+    "I've solved a puzzle consisting of only white pieces",
+    "My bike was stolen on christmas eve",
+    "I've grown an 80 kg pumpkin in my backyard",
+    "I rode llama when I was 6",
+    "I'm a clarinet player in my band",
+    "My favourite movie is The Godfather",
+    "I used to have long hair",
+    "I've been saved a lifeguard before"
   ];
 
   function startGame() {
