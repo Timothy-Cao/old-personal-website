@@ -116,7 +116,7 @@ function checkAnswer(index) {
 </script>
 
 <div id="statements"></div>
-<button class="statement-button" id="restart-button" onclick="startGame()" style="display:none;">Restart Game</button>
+<button class="statement-button" id="restart-button" onclick="startGame()" style="display:inline-block;">Restart Game</button>
 
 
 ## Your turn! I will Guess
