@@ -26,37 +26,14 @@ layout: page
   .incorrect-answer {
     background-color: #dc3545;
   }
-
-  @keyframes spin {
-    0% { transform: rotate(0deg); }
-    100% { transform: rotate(360deg); }
-  }
-
-  #loading {
-    display: none;
-    border: 4px solid rgba(0, 0, 0, 0.1);
-    width: 36px;
-    height: 36px;
-    border-radius: 50%;
-    border-left: 4px solid #000;
-    animation: spin 1s linear infinite;
-    margin: 10px auto;
-  }
-
-  .input-form {
-      margin: 20px 0;
-  }
-  label, input, button {
-      margin-bottom: 10px;
-  }
-      #result-container {
-      /* Add any specific styling here */
-    }
 </style>
+
+<div id="loading">Loading...</div>
 
 Which one is the lie?
 
 <script type="text/javascript">
+  // Define your truths and lies here
   var truths = [
     "My favourite KDrama is Business Proposal",
     "I learned how to juggle accidentally",
@@ -86,10 +63,7 @@ Which one is the lie?
   function startGame() {
     var chosenStatements = [];
 
-    // Clear the previous state
-    document.getElementById("result").innerHTML = "";
-    document.getElementById("restart-button").style.display = "none";
-
+    // Select 2 random truths
     while (chosenStatements.length < 2) {
       var randomTruth = truths[Math.floor(Math.random() * truths.length)];
       if (!chosenStatements.some(s => s.statement === randomTruth)) {
@@ -97,37 +71,38 @@ Which one is the lie?
       }
     }
 
+    // Select 1 random lie
     chosenStatements.push({ statement: lies[Math.floor(Math.random() * lies.length)], isLie: true });
+
+    // Shuffle the statements
     chosenStatements.sort(() => Math.random() - 0.5);
 
     var html = chosenStatements.map((s, index) => `<button class="statement-button" onclick="checkAnswer(${index})">${s.statement}</button>`).join('<br>');
     document.getElementById("statements").innerHTML = html;
 
     window.chosenStatements = chosenStatements;
+
   }
 
-  function checkAnswer(index) {
-    var buttons = document.querySelectorAll(".statement-button");
+function checkAnswer(index) {
+  var buttons = document.querySelectorAll(".statement-button:not(#restart-button)");
 
-    for (var i = 0; i < buttons.length; i++) {
-      var statement = window.chosenStatements[i];
-      buttons[i].disabled = true;
-      buttons[i].classList.add(statement.isLie ? "incorrect-answer" : "correct-answer");
-    }
-
-    document.getElementById("restart-button").style.display = "inline-block";
+  for (var i = 0; i < buttons.length; i++) {
+    var statement = window.chosenStatements[i];
+    buttons[i].disabled = true;
+    buttons[i].classList.add(statement.isLie ? "incorrect-answer" : "correct-answer");
   }
+
+  document.getElementById("restart-button").style.display = "inline-block";
+}
+
 
   window.onload = startGame;
 </script>
 
 <div id="statements"></div>
 <button class="statement-button" id="restart-button" onclick="startGame()" style="display:none;">Restart Game</button>
-</div>
-<p id="loading">Loading...</p> 
-<div id="result-container">
-  <p id="result"></p>
-</div>
+
 
 ## Your turn! I will Guess
 
@@ -142,11 +117,26 @@ Enter three statements and the AI try to guess which one is a lie.
     <input type="text" id="statement3" required><br><br>
     <button class="statement-button" id="guess-button" onclick="guessLie()" style="display:inline-block;">Guess your lie</button>
 </div>
-<div id="loading"></div>
+<p id="loading">Loading...</p> 
+<p id="result"></p>
+
+<style>
+    .input-form {
+        margin: 20px 0;
+    }
+    label, input, button {
+        margin-bottom: 10px;
+    }
+    
+    #loading {
+        display: none;
+        font-size: 16px;
+        margin-top: 10px;
+    }
+</style>
 
 <script>
   async function guessLie() {
-    document.getElementById("guess-button").style.display = "none";
     const statement1 = document.getElementById("statement1").value;
     const statement2 = document.getElementById("statement2").value;
     const statement3 = document.getElementById("statement3").value;
@@ -157,6 +147,7 @@ Enter three statements and the AI try to guess which one is a lie.
       statement3: statement3,
     });
 
+    // Show the loading indicator while fetching the response
     var loadingIndicator = document.getElementById("loading");
     loadingIndicator.style.display = "block";
 
@@ -168,16 +159,16 @@ Enter three statements and the AI try to guess which one is a lie.
         },
       });
 
+      // Hide the loading indicator after fetching the response
       loadingIndicator.style.display = "none";
 
       const result = await response.json();
       document.getElementById("result").innerHTML = result.lieGuess;
-      document.getElementById("guess-button").style.display = "inline-block";
     } catch (error) {
       console.error("There was an error:", error);
       document.getElementById("result").innerHTML =
         "Sorry, something went wrong. Please try again later.";
-      loadingIndicator.style.display = "none";
+      loadingIndicator.style.display = "none"; // Hide the loading indicator if an error occurs
     }
   }
 </script>
