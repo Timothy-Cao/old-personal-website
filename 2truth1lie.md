@@ -76,6 +76,7 @@ Which one is the lie?
   ];
 
   function startGame() {
+    
     var chosenStatements = [];
 
     // Select 2 random truths
@@ -116,7 +117,7 @@ function checkAnswer(index) {
 </script>
 
 <div id="statements"></div>
-<button class="statement-button" id="restart-button" onclick="startGame()" style="display:inline-block;">Restart Game</button>
+<button class="statement-button" id="restart-button" onclick="startGame()" style="display:none;">Restart Game</button>
 
 
 ## Your turn! I will Guess
@@ -153,6 +154,7 @@ Enter three statements and the AI try to guess which one is a lie.
 
 <script>
   async function guessLie() {
+    document.getElementById("guess-button").style.display = "none";
     const statement1 = document.getElementById("statement1").value;
     const statement2 = document.getElementById("statement2").value;
     const statement3 = document.getElementById("statement3").value;
@@ -180,6 +182,7 @@ Enter three statements and the AI try to guess which one is a lie.
 
       const result = await response.json();
       document.getElementById("result").innerHTML = result.lieGuess;
+      document.getElementById("restart-button").style.display = "inline-block";
     } catch (error) {
       console.error("There was an error:", error);
       document.getElementById("result").innerHTML =
