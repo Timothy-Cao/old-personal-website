@@ -76,6 +76,12 @@ Which one is the lie?
   ];
 
   function startGame() {
+  var chosenStatements = [];
+
+  // Clear the previous state
+  document.getElementById("result").innerHTML = "";
+  document.getElementById("guess-button").style.display = "inline-block"; // Make the guess button visible again
+  document.getElementById("loading").style.display = "none"; // Hide the loading indicator
     
     var chosenStatements = [];
 
@@ -108,6 +114,7 @@ function checkAnswer(index) {
     buttons[i].disabled = true;
     buttons[i].classList.add(statement.isLie ? "incorrect-answer" : "correct-answer");
   }
+
 
   document.getElementById("restart-button").style.display = "inline-block";
 }
