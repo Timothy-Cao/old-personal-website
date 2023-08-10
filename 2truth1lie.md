@@ -45,9 +45,6 @@ layout: page
 </style>
 
 
-
-<div id="loading">Loading...</div>
-
 Which one is the lie?
 
 <script type="text/javascript">
@@ -134,7 +131,8 @@ Enter three statements and the AI try to guess which one is a lie.
     <label for="statement3">Statement 3:</label>
     <input type="text" id="statement3" required><br><br>
     <button class="statement-button" id="guess-button" onclick="guessLie()" style="display:inline-block;">Guess your lie</button>
-</div><div id="loading"></div>
+</div>
+<div id="loading"></div>
 
 <p id="result"></p>
 
