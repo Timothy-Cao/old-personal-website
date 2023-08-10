@@ -126,6 +126,7 @@ function checkAnswer(index) {
 
 
 
+
   window.onload = startGame;
 </script>
 
@@ -144,11 +145,11 @@ Enter three statements and the AI try to guess which one is a lie.
     <input type="text" id="statement2" required><br>
     <label for="statement3">Statement 3:</label>
     <input type="text" id="statement3" required><br><br>
-    <button class="statement-button" id="guess-button" onclick="guessLie()" style="display:inline-block;">Guess your lie</button>
+    <button class="statement-button" id="restart-button" onclick="startGame()" style="display:none;">Restart Game</button>
+<p id="result"></p>
+
 </div>
 <div id="loading"></div>
-
-<p id="result"></p>
 
 <style>
     .input-form {
