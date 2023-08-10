@@ -27,7 +27,7 @@ layout: page
     background-color: #dc3545;
   }
 
-    @keyframes spin {
+  @keyframes spin {
     0% { transform: rotate(0deg); }
     100% { transform: rotate(360deg); }
   }
@@ -42,50 +42,34 @@ layout: page
     animation: spin 1s linear infinite;
     margin: 10px auto;
   }
-</style>
 
+  .input-form {
+      margin: 20px 0;
+  }
+  label, input, button {
+      margin-bottom: 10px;
+  }
+</style>
 
 Which one is the lie?
 
 <script type="text/javascript">
-  // Define your truths and lies here
   var truths = [
     "My favourite KDrama is Business Proposal",
-    "I learned how to juggle accidentally",
-    "I almost fell off a roller coaster",
-    "I once tuned my piano with chopsticks",
-    "I have a family of amongus plushies",
-    "I've never eaten pasta while visiting Italy",
-    "I've experienced sleep paralysis",
-    "I had a positive experience with chef's plate",
-    "I've held a snake in my hands",
-    "I can circular breathe",
-    "My favourite video game is It Takes Two",
-    "I've never dyed my hair, got a tattoo or a piercing"
+    // Add more truths as needed...
   ];
   var lies = [
     "I let my plant die despite being fake",
-    "I've solved a puzzle consisting of only white pieces",
-    "My bike was stolen on christmas eve",
-    "I've grown an 80 kg pumpkin in my backyard",
-    "I rode llama when I was 6",
-    "I'm a clarinet player in my band",
-    "My favourite movie is The Godfather",
-    "I used to have long hair",
-    "I've been saved a lifeguard before"
+    // Add more lies as needed...
   ];
 
   function startGame() {
-  var chosenStatements = [];
-
-  // Clear the previous state
-  document.getElementById("result").innerHTML = "";
-  document.getElementById("guess-button").style.display = "inline-block"; // Make the guess button visible again
-  document.getElementById("loading").style.display = "none"; // Hide the loading indicator
-    
     var chosenStatements = [];
 
-    // Select 2 random truths
+    // Clear the previous state
+    document.getElementById("result").innerHTML = "";
+    document.getElementById("restart-button").style.display = "none";
+
     while (chosenStatements.length < 2) {
       var randomTruth = truths[Math.floor(Math.random() * truths.length)];
       if (!chosenStatements.some(s => s.statement === randomTruth)) {
@@ -93,46 +77,33 @@ Which one is the lie?
       }
     }
 
-    // Select 1 random lie
     chosenStatements.push({ statement: lies[Math.floor(Math.random() * lies.length)], isLie: true });
-
-    // Shuffle the statements
     chosenStatements.sort(() => Math.random() - 0.5);
 
     var html = chosenStatements.map((s, index) => `<button class="statement-button" onclick="checkAnswer(${index})">${s.statement}</button>`).join('<br>');
     document.getElementById("statements").innerHTML = html;
 
     window.chosenStatements = chosenStatements;
-
   }
 
-function checkAnswer(index) {
-  var buttons = document.querySelectorAll(".statement-button");
-  var chosenStatement = window.chosenStatements[index];
+  function checkAnswer(index) {
+    var buttons = document.querySelectorAll(".statement-button");
 
-  for (var i = 0; i < buttons.length; i++) {
-    buttons[i].disabled = true;
-    buttons[i].classList.add(window.chosenStatements[i].isLie ? "incorrect-answer" : "correct-answer");
+    for (var i = 0; i < buttons.length; i++) {
+      var statement = window.chosenStatements[i];
+      buttons[i].disabled = true;
+      buttons[i].classList.add(statement.isLie ? "incorrect-answer" : "correct-answer");
+    }
+
+    document.getElementById("restart-button").style.display = "inline-block";
   }
-
-  if (chosenStatement.isLie) {
-    document.getElementById("result").innerHTML = "Correct! That was the lie.";
-  } else {
-    document.getElementById("result").innerHTML = "Incorrect. That was not the lie.";
-  }
-
-  document.getElementById("restart-button").style.display = "inline-block"; // Show the restart button
-}
-
-
-
 
   window.onload = startGame;
 </script>
 
 <div id="statements"></div>
 <button class="statement-button" id="restart-button" onclick="startGame()" style="display:none;">Restart Game</button>
-
+<p id="result"></p>
 
 ## Your turn! I will Guess
 
@@ -145,26 +116,9 @@ Enter three statements and the AI try to guess which one is a lie.
     <input type="text" id="statement2" required><br>
     <label for="statement3">Statement 3:</label>
     <input type="text" id="statement3" required><br><br>
-    <button class="statement-button" id="restart-button" onclick="startGame()" style="display:none;">Restart Game</button>
-<p id="result"></p>
-
+    <button class="statement-button" id="guess-button" onclick="guessLie()" style="display:inline-block;">Guess your lie</button>
 </div>
 <div id="loading"></div>
-
-<style>
-    .input-form {
-        margin: 20px 0;
-    }
-    label, input, button {
-        margin-bottom: 10px;
-    }
-    
-    #loading {
-        display: none;
-        font-size: 16px;
-        margin-top: 10px;
-    }
-</style>
 
 <script>
   async function guessLie() {
@@ -179,7 +133,6 @@ Enter three statements and the AI try to guess which one is a lie.
       statement3: statement3,
     });
 
-    // Show the loading indicator while fetching the response
     var loadingIndicator = document.getElementById("loading");
     loadingIndicator.style.display = "block";
 
@@ -191,17 +144,16 @@ Enter three statements and the AI try to guess which one is a lie.
         },
       });
 
-      // Hide the loading indicator after fetching the response
       loadingIndicator.style.display = "none";
 
       const result = await response.json();
       document.getElementById("result").innerHTML = result.lieGuess;
-      document.getElementById("guess-button").style.display = "inline-block"; // Show the guess button again
+      document.getElementById("guess-button").style.display = "inline-block";
     } catch (error) {
       console.error("There was an error:", error);
       document.getElementById("result").innerHTML =
         "Sorry, something went wrong. Please try again later.";
-      loadingIndicator.style.display = "none"; // Hide the loading indicator if an error occurs
+      loadingIndicator.style.display = "none";
     }
   }
 </script>
