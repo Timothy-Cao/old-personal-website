@@ -1,5 +1,5 @@
 ---
-title: "Animation"
+title: "Animation <WIP>"
 permalink: "/blog/animation"
 layout: page
 ---
