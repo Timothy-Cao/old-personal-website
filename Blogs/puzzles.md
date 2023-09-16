@@ -21,12 +21,13 @@ layout: page
 
 <h2><span style="color: #89CFF0;">Random science quiz</span></h2>
 
-<button id="next-question-button" onclick="fetchNewQuiz()">Next Question</button>
 
 <div class="quiz-container">
     <div id="science-quiz">
     </div>
 </div>
+
+<button id="next-question-button" onclick="fetchNewQuiz()">Next Question</button>
 
 <script>
   function fetchNewQuiz() {
