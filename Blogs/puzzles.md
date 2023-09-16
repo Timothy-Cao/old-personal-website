@@ -138,7 +138,7 @@ A surprisingly hard puzzle that may arise from PCO
 
 [Play it yourself!](https://jstris.jezevec10.com/?play=6&map=51132)
 
-![tetris puzzle 1](../assets/images/tetris_puzzle1.png){:width="300px" height="400px"}
+<img src="../assets/images/tetris_puzzle1.png" style="width: 300px; height: 400px;">
 
 <div>
   <button onclick="toggleSpoiler('tetrisSpoiler1')">Show/Hide Hint</button>
