@@ -30,6 +30,7 @@ layout: page
     </div>
   </div>
 </div>
+</div>
 
 <script>
   let quizPopupVisible = false;
