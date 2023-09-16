@@ -17,86 +17,63 @@ layout: page
 </style>
 
 <!-----------------------------SCIENCE QUIZ ----------------------------->
-
 <div class="bubble-section">
 
 <h2><span style="color: #89CFF0;">Make Bill Nye Proud: General Science Knowledge</span></h2>
 
-<button id="quiz-toggle-button" onclick="toggleQuizPopup()">Show Quiz</button>
-<button id="new-quiz-button" onclick="fetchNewQuiz()">New Quiz</button>
+<button id="next-question-button" onclick="fetchNewQuiz()">Next Question</button>
 
-<div id="quiz-popup" style="display: none;">
-    <div class="quiz-container">
-        <h2>General Science Knowledge Quiz</h2>
-        <p>Select the correct answers by clicking on the options. You can start the quiz by pressing "Show Quiz"!</p>
-        <div id="science-quiz">
-        </div>
+<div class="quiz-container">
+    <h2>General Science Knowledge Quiz</h2>
+    <p>Select the correct answer by clicking on the option.</p>
+    <div id="science-quiz">
     </div>
 </div>
 
 <script>
-  let quizPopupVisible = false;
-
-  function toggleQuizPopup() {
-    const quizPopup = document.getElementById("quiz-popup");
-    const quizToggleButton = document.getElementById("quiz-toggle-button");
-
-    quizPopupVisible = !quizPopupVisible;
-    if (quizPopupVisible) {
-      quizPopup.style.display = "flex";
-      quizToggleButton.textContent = "Close Quiz";
-    } else {
-      quizPopup.style.display = "none";
-      quizToggleButton.textContent = "Show Quiz";
-    }
-  }
-
   function fetchNewQuiz() {
-    // Clear previous questions
+    // Clear previous question
     const quizContainer = document.getElementById('science-quiz');
     quizContainer.innerHTML = '';
 
-    // Fetch the new questions
-    fetch('https://opentdb.com/api.php?amount=5&category=17&difficulty=hard')
+    // Fetch the new question
+    fetch('https://opentdb.com/api.php?amount=1&category=17&difficulty=hard')
       .then(response => response.json())
       .then(data => {
-        const questions = data.results;
+        const question = data.results[0];
+        const options = [...question.incorrect_answers, question.correct_answer];
+        options.sort(() => Math.random() - 0.5);
 
-        questions.forEach((question, index) => {
-          const options = [...question.incorrect_answers, question.correct_answer];
-          options.sort(() => Math.random() - 0.5); 
+        const questionContainer = document.createElement('div');
+        questionContainer.classList.add('quiz-question');
+        questionContainer.innerHTML = `
+          <p>${question.question}</p>
+          <ul class="quiz-options">
+            ${options.map(option => `
+              <li data-correct="${option === question.correct_answer ? 'true' : 'false'}">${option}</li>
+            `).join('')}
+          </ul>
+          <p class="quiz-feedback"></p>
+        `;
 
-          const questionContainer = document.createElement('div');
-          questionContainer.classList.add('quiz-question');
-          questionContainer.innerHTML = `
-            <p>${question.question}</p>
-            <ul class="quiz-options">
-              ${options.map((option, optionIndex) => `
-                <li data-correct="${option === question.correct_answer ? 'true' : 'false'}">${option}</li>
-              `).join('')}
-            </ul>
-            <p class="quiz-feedback"></p>
-          `;
+        const optionElements = questionContainer.querySelectorAll('.quiz-options li');
+        optionElements.forEach(option => {
+          option.addEventListener('click', function() {
+            const correct = this.getAttribute('data-correct') === 'true';
+            const feedback = this.parentElement.nextElementSibling;
+            feedback.textContent = correct ? 'Correct!' : 'Incorrect!';
+            feedback.style.color = correct ? 'green' : 'red';
 
-          const optionElements = questionContainer.querySelectorAll('.quiz-options li');
-          optionElements.forEach(option => {
-            option.addEventListener('click', function() {
-              const correct = this.getAttribute('data-correct') === 'true';
-              const feedback = this.parentElement.nextElementSibling;
-              feedback.textContent = correct ? 'Correct!' : 'Incorrect!';
-              feedback.style.color = correct ? 'green' : 'red';
-
-              optionElements.forEach(elem => {
-                elem.style.pointerEvents = 'none'; 
-                if (elem.getAttribute('data-correct') === 'true') {
-                  elem.style.color = 'green';
-                }
-              });
+            optionElements.forEach(elem => {
+              elem.style.pointerEvents = 'none';
+              if (elem.getAttribute('data-correct') === 'true') {
+                elem.style.color = 'green';
+              }
             });
           });
-
-          quizContainer.appendChild(questionContainer);
         });
+
+        quizContainer.appendChild(questionContainer);
       })
       .catch(error => {
         console.error('Error fetching quiz:', error);
@@ -106,6 +83,7 @@ layout: page
   fetchNewQuiz();
 </script>
 </div>
+
 
 
 
