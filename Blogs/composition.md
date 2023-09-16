@@ -167,9 +167,9 @@ I don't know why this sounds so nostalgic to me. It draws inspiration from Joe H
 </body>
 </html>
 
-## <span style="color: #89CFF0;">Autumn leaves Variations</span>
+## <span style="color: #89CFF0;">Autumn Leaves variations</span>
 
-Just some random variations on autumn leaves for our jazz band. This is an early work in progresse.
+Just some random variations on autumn leaves for our jazz band. This is an early work in progress. It features a classical and jazz style. Currently working on extended smooth jazz section, latin style and some solo parts. 
 
 <html>
 <body>
