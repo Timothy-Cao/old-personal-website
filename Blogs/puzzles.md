@@ -178,7 +178,7 @@ function toggleSpoiler(spoilerId) {
 
     <div class="puzzle">
         <h3 style="color: #89CFF0;">Triangle Puzzle</h3>
-        <p>Draw 3 straight lines to create 9 triangles:</p>
+        <p>Draw 3 straight lines on top of this image to create 9 triangles:</p>
         <img src="../assets/images/triangle_puzzle.png" alt="Triangle Puzzle">
     </div>
 
