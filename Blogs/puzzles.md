@@ -181,7 +181,7 @@ function toggleSpoiler(spoilerId) {
     <div class="puzzle">
         <h3>Triangle Puzzle</h3>
         <p>Draw 3 straight lines to create 9 triangles:</p>
-        <img src="triangle_puzzle.png" alt="Triangle Puzzle">
+        <img src="../assets/images/triangle_puzzle.png" alt="Triangle Puzzle">
     </div>
 
     <!-- Scooter Puzzle -->
@@ -223,7 +223,7 @@ function toggleSpoiler(spoilerId) {
     <div class="puzzle">
         <h3>The Four 4's Puzzle</h3>
         <p>
-            Using exactly four 4's and the operations +, -, *, /, sqrt(x), exp(x,y) (representing raising a number to an exponent), and any number of brackets, can you create as many integers as possible, starting from 0 and going upwards?
+            Using exactly four 4's and the operations +, -, *, /, sqrt(x), exp(x,y) (representing raising a number to an exponent), and any number of brackets, can you create as many integers as possible, starting from 0 and going upwards? 
         </p>
         <p>
             For instance: <br>
