@@ -167,3 +167,15 @@ I don't know why this sounds so nostalgic to me. It draws inspiration from Joe H
 </body>
 </html>
 
+## <span style="color: #89CFF0;">Autumn leaves Variations</span>
+
+Just some random variations on autumn leaves for our jazz band. This is an early work in progresse.
+
+<html>
+<body>
+  <audio controls>
+    <source src="../assets/audio/Tim's Leaves.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+  </audio>
+</body>
+</html>
