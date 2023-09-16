@@ -148,7 +148,7 @@ function toggleSpoiler(spoilerId) {
 <!-----------------------------CHESS PUZZLE ----------------------------->
 <div class="bubble-section">
 <h2><span style="color: #89CFF0;">Chess Puzzles</span></h2>
-<p>Difficulty: 2100</p>
+<p>Difficulty: ~2400</p>
 <img src="../assets/images/chess_puzzle1.png" style="width: 400px; height: 400px;">
 <div>
   <button onclick="toggleSpoiler('chessSpoiler1')">Show/Hide Solution</button>
