@@ -19,26 +19,31 @@ layout: page
 <!-----------------------------SCIENCE QUIZ ----------------------------->
 <div class="bubble-section">
 
-<h2><span style="color: #89CFF0;">Random science quiz</span></h2>
-
-
-<div class="quiz-container">
-    <div id="science-quiz">
-    </div>
-</div>
+<h2><span style="color: #89CFF0;">Make Bill Nye Proud: General Science Knowledge</span></h2>
 
 <button id="next-question-button" onclick="fetchNewQuiz()">Next Question</button>
 
+<div class="quiz-container">
+    <h2>General Science Knowledge Quiz</h2>
+    <p>Select the correct answer by clicking on the option.</p>
+    <div id="science-quiz">
+        <p>Loading...</p>
+    </div>
+</div>
+
 <script>
   function fetchNewQuiz() {
-    // Clear previous question
     const quizContainer = document.getElementById('science-quiz');
-    quizContainer.innerHTML = '';
+
+    // Set the container's height to its current height
+    quizContainer.style.height = `${quizContainer.offsetHeight}px`;
 
     // Fetch the new question
     fetch('https://opentdb.com/api.php?amount=1&category=17&difficulty=hard')
       .then(response => response.json())
       .then(data => {
+        quizContainer.innerHTML = ''; // Clear old question
+
         const question = data.results[0];
         const options = [...question.incorrect_answers, question.correct_answer];
         options.sort(() => Math.random() - 0.5);
@@ -55,33 +60,21 @@ layout: page
           <p class="quiz-feedback"></p>
         `;
 
-        const optionElements = questionContainer.querySelectorAll('.quiz-options li');
-        optionElements.forEach(option => {
-          option.addEventListener('click', function() {
-            const correct = this.getAttribute('data-correct') === 'true';
-            const feedback = this.parentElement.nextElementSibling;
-            feedback.textContent = correct ? 'Correct!' : 'Incorrect!';
-            feedback.style.color = correct ? 'green' : 'red';
-
-            optionElements.forEach(elem => {
-              elem.style.pointerEvents = 'none';
-              if (elem.getAttribute('data-correct') === 'true') {
-                elem.style.color = 'green';
-              }
-            });
-          });
-        });
-
         quizContainer.appendChild(questionContainer);
+
+        // Reset the container's height
+        quizContainer.style.height = 'auto';
       })
       .catch(error => {
         console.error('Error fetching quiz:', error);
       });
   }
 
+  // Fetch initial question
   fetchNewQuiz();
 </script>
 </div>
+
 
 
 
