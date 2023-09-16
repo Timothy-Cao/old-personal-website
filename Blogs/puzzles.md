@@ -6,6 +6,17 @@ layout: page
 
 <a href="/personal/blog" style="position: fixed; bottom: 20px; right: 20px; background-color: #6495ED; color: white; padding: 10px 15px; text-decoration: none; border-radius: 5px;">← Back</a>
 
+<style>
+  .bubble-section {
+    background-color: #333;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+</style>
+
+<div class="bubble-section">
 
 ## <span style="color: #89CFF0;">Make Bill Nye Proud: General Science Knowledge</span>
 
@@ -16,7 +27,6 @@ layout: page
     <h2>General Science Knowledge Quiz</h2>
     <p>Select the correct answers by clicking on the options. You can start the quiz by pressing "Show Quiz"!</p>
     <div id="science-quiz">
-      <!-- The quiz questions will be dynamically added here -->
     </div>
   </div>
 </div>
@@ -118,6 +128,10 @@ layout: page
 
 
 
+</div>
+
+<div class="bubble-section">
+
 ## <span style="color: #89CFF0;">Tetris Puzzles</span>
 
 A surprisingly hard puzzle that may arise from PCO
@@ -133,6 +147,10 @@ A surprisingly hard puzzle that may arise from PCO
   </div>
 </div>
 
+</div>
+
+<div class="bubble-section">
+
 ## <span style="color: #89CFF0;">Chess Puzzles</span>
 
 Difficulty: 2100
@@ -146,31 +164,25 @@ Difficulty: 2100
   </div>
 </div>
 
-<script>
-  function toggleSpoiler(id) {
-    var spoilerElement = document.getElementById(id);
-    if (spoilerElement.style.display === "none") {
-      spoilerElement.style.display = "block";
-    } else {
-      spoilerElement.style.display = "none";
-    }
-  }
-</script>
+</div>
 
-
-
+<div class="bubble-section">
 
 ## <span style="color: #89CFF0;">Logic Puzzles</span>
 
 WIP
 
+</div>
 
+<div class="bubble-section">
 
 ## <span style="color: #89CFF0;">Fermi Estimations</span>
 
 WIP
 
+</div>
 
+<div class="bubble-section">
 
 ## <span style="color: #89CFF0;">Naruto Quiz</span>
 
@@ -178,5 +190,4 @@ Difficult Naruto quiz
 
 <iframe src="https://take.quiz-maker.com/QSQLDBXP8" width="500" height="500"></iframe>
 
-
-
+</div>
