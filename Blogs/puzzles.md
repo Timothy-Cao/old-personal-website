@@ -131,22 +131,16 @@ layout: page
 </div>
 
 <div class="bubble-section">
-
-## <span style="color: #89CFF0;">Tetris Puzzles</span>
-
-A surprisingly hard puzzle that may arise from PCO
-
-[Play it yourself!](https://jstris.jezevec10.com/?play=6&map=51132)
-
+<h2><span style="color: #89CFF0;">Tetris Puzzles</span></h2>
+<p>A surprisingly hard puzzle that may arise from PCO</p>
+<a href="https://jstris.jezevec10.com/?play=6&map=51132" target="_blank">Play it yourself!</a>
 <img src="../assets/images/tetris_puzzle1.png" style="width: 300px; height: 400px;">
-
 <div>
   <button onclick="toggleSpoiler('tetrisSpoiler1')">Show/Hide Hint</button>
   <div id="tetrisSpoiler1" style="display:none;">
     Piece order: O L I Z S. Three of the pieces need to be spun in.
   </div>
 </div>
-
 </div>
 
 <div class="bubble-section">
