@@ -153,7 +153,7 @@ function toggleSpoiler(spoilerId) {
 <div>
   <button onclick="toggleSpoiler('chessSpoiler1')">Show/Hide Solution</button>
   <div id="chessSpoiler1" style="display:none;">
-    1... Bg4 2. Rxe8+ Rxe8 3. f3 Bxh5
+    1... Bg4 2. Rxe8+ Rxe8 3. f3 Bxh5 ... or 3. h3 Bxh5
     This queen sacrifice creates a fork between the enemy queen and the threat of a backrank mate!
   </div>
 </div>
