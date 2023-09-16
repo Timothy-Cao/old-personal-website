@@ -163,9 +163,8 @@ function toggleSpoiler(spoilerId) {
     <h2><span style="color: #89CFF0;">Logic Puzzles</span></h2>
     <p>New puzzles are cycled in every month!</p>
 
-    <!-- Meta Puzzle -->
     <div class="puzzle">
-        <h3>Meta Puzzle</h3>
+        <h3 style="color: #89CFF0;">Meta Puzzle</h3>
         <p>What is the correct answer?</p>
         <ol>
             <li>All of the below</li>
@@ -177,68 +176,48 @@ function toggleSpoiler(spoilerId) {
         </ol>
     </div>
 
-    <!-- Triangle Puzzle -->
     <div class="puzzle">
-        <h3>Triangle Puzzle</h3>
+        <h3 style="color: #89CFF0;">Triangle Puzzle</h3>
         <p>Draw 3 straight lines to create 9 triangles:</p>
         <img src="../assets/images/triangle_puzzle.png" alt="Triangle Puzzle">
     </div>
 
-    <!-- Scooter Puzzle -->
     <div class="puzzle">
-        <h3>Scooter Puzzle</h3>
-        <p>
-            Amanda lives with her teenage son, Matt, in the countryside—a car ride away from Matt’s school. Every afternoon, Amanda leaves the house at the same time, drives to the school at a constant speed, picks Matt up exactly when his chess club ends at 5 p.m., and then they immediately return home together at the same constant speed. But one day, Matt isn’t feeling well, so he leaves chess practice early and starts to head home on his portable scooter.
-        </p>
-        <p>
-            After Matt has been scooting for an hour, Amanda comes across him in her car (on her usual route to pick him up), and they return together, arriving home 40 minutes earlier than they usually do. How much chess practice did Matt miss?
-        </p>
+        <h3 style="color: #89CFF0;">Scooter Puzzle</h3>
+        <p>Amanda lives with her teenage son, Matt, in the countryside—a car ride away from Matt’s school. Every afternoon, Amanda leaves the house at the same time, drives to the school at a constant speed, picks Matt up exactly when his chess club ends at 5 p.m., and then they immediately return home together at the same constant speed. But one day, Matt isn’t feeling well, so he leaves chess practice early and starts to head home on his portable scooter.</p>
+        <p>After Matt has been scooting for an hour, Amanda comes across him in her car (on her usual route to pick him up), and they return together, arriving home 40 minutes earlier than they usually do. How much chess practice did Matt miss?</p>
     </div>
 
-    <!-- Chameleon Puzzle -->
     <div class="puzzle">
-        <h3>Chameleon Puzzle</h3>
-        <p>
-            There are 13 Red, 15 Green, and 17 Blue Chameleons at some point of time. Whenever two Chameleons of the different colors meet both of them change their color to the third color. Is it ever possible for all Chameleons to become of the same color?
-        </p>
+        <h3 style="color: #89CFF0;">Chameleon Puzzle</h3>
+        <p>There are 13 Red, 15 Green, and 17 Blue Chameleons at some point of time. Whenever two Chameleons of the different colors meet both of them change their color to the third color. Is it ever possible for all Chameleons to become of the same color?</p>
     </div>
 
-    <!-- Handshake Puzzle -->
     <div class="puzzle">
-        <h3>Handshake Puzzle</h3>
-        <p>
-            Five couples, including Obama and Michelle, meet at a bar. Eager to greet one another, every person shakes hands with those they haven't previously met. After the greetings, Michelle asks everyone about the number of hands they shook and gets nine different answers.
-        </p>
-        <p>
-            Question: How many hands did Obama shake?
-        </p>
+        <h3 style="color: #89CFF0;">Handshake Puzzle</h3>
+        <p>Five couples, including Obama and Michelle, meet at a bar. Eager to greet one another, every person shakes hands with those they haven't previously met. After the greetings, Michelle asks everyone about the number of hands they shook and gets nine different answers.</p>
+        <p>Question: How many hands did Obama shake?</p>
     </div>
 </div>
 
-<!-----------------------------FERMI PUZZLE ----------------------------->
+<!-----------------------------MATH PUZZLE ----------------------------->
 <div class="bubble-section">
     <h2><span style="color: #89CFF0;">Math Puzzle</span></h2>
 
-    <!-- Four 4's Puzzle -->
     <div class="puzzle">
-        <h3>The Four 4's Puzzle</h3>
-        <p>
-            Using exactly four 4's and the operations +, -, *, /, sqrt(x), exp(x,y) (representing raising a number to an exponent), and any number of brackets, can you create as many integers as possible, starting from 0 and going upwards? 
-        </p>
-        <p>
-            For instance: <br>
-            0 = 44 - 44 <br>
-            1 = 44 / 44 <br>
-            2 = 4 / 4 + 4 / 4 <br>
-            ... and so on.
+        <h3 style="color: #89CFF0;">The Four 4's Puzzle</h3>
+        <p>Using exactly four 4's and the operations +, -, *, /, sqrt(x), exp(x,y), and any number of brackets, can you create as many integers as possible, starting from 0 and going upwards?</p>
+        <p>For instance:<br>
+        0 = 44 - 44 <br>
+        1 = 44 / 44 <br>
+        2 = 4 / 4 + 4 / 4 <br>
+        ... and so on.
         </p>
         <p>How many integers can you form? And what are they?</p>
-        
-        <!-- Bonus Section -->
+
         <div class="bonus-section">
-            <h4>Bonus Challenge:</h4>
-            <p>Can you generalize the puzzle so that with a specific number of 4's you can produce any positive integer? 
-            Or even further, can you produce any real number? </p>
+            <h4 style="color: #89CFF0;">Bonus Challenge:</h4>
+            <p>Can you generalize the puzzle so that with a specific number of 4's you can produce any positive integer? Or even further, can you produce any real number?</p>
         </div>
     </div>
 </div>
