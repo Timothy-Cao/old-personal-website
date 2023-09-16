@@ -217,6 +217,28 @@ function toggleSpoiler(spoilerId) {
 
 <!-----------------------------FERMI PUZZLE ----------------------------->
 <div class="bubble-section">
-<h2><span style="color: #89CFF0;">Fermi Estimations</span></h2>
-<p>WIP</p>
+    <h2><span style="color: #89CFF0;">Math Puzzle</span></h2>
+
+    <!-- Four 4's Puzzle -->
+    <div class="puzzle">
+        <h3>The Four 4's Puzzle</h3>
+        <p>
+            Using exactly four 4's and the operations +, -, *, /, sqrt(x), exp(x,y) (representing raising a number to an exponent), and any number of brackets, can you create as many integers as possible, starting from 0 and going upwards?
+        </p>
+        <p>
+            For instance: <br>
+            0 = 44 - 44 <br>
+            1 = 44 / 44 <br>
+            2 = 4 / 4 + 4 / 4 <br>
+            ... and so on.
+        </p>
+        <p>How many integers can you form? And what are they?</p>
+        
+        <!-- Bonus Section -->
+        <div class="bonus-section">
+            <h4>Bonus Challenge:</h4>
+            <p>Can you generalize the puzzle so that with a specific number of 4's you can produce any positive integer? 
+            Or even further, can you produce any real number? </p>
+        </div>
+    </div>
 </div>
