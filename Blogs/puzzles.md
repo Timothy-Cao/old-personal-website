@@ -161,7 +161,7 @@ function toggleSpoiler(spoilerId) {
 <!-----------------------------LOGIC PUZZLE ----------------------------->
 <div class="bubble-section">
     <h2><span style="color: #89CFF0;">Logic Puzzles</span></h2>
-    <p>New Puzles are cycled every month!</p>
+    <p>New puzzles are cycled in every month!</p>
 
     <!-- Meta Puzzle -->
     <div class="puzzle">
