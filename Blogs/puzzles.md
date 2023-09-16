@@ -18,18 +18,18 @@ layout: page
 
 <div class="bubble-section">
 
-## <span style="color: #89CFF0;">Make Bill Nye Proud: General Science Knowledge</span>
+<h2><span style="color: #89CFF0;">Make Bill Nye Proud: General Science Knowledge</span></h2>
 
 <button id="quiz-toggle-button" onclick="toggleQuizPopup()">Show Quiz</button>
+<button id="new-quiz-button" onclick="fetchNewQuiz()">New Quiz</button>
 
 <div id="quiz-popup" style="display: none;">
-  <div class="quiz-container">
-    <h2>General Science Knowledge Quiz</h2>
-    <p>Select the correct answers by clicking on the options. You can start the quiz by pressing "Show Quiz"!</p>
-    <div id="science-quiz">
+    <div class="quiz-container">
+        <h2>General Science Knowledge Quiz</h2>
+        <p>Select the correct answers by clicking on the options. You can start the quiz by pressing "Show Quiz"!</p>
+        <div id="science-quiz">
+        </div>
     </div>
-  </div>
-</div>
 </div>
 
 <script>
@@ -49,56 +49,63 @@ layout: page
     }
   }
 
-  // Fetch the quiz data and create the questions
-  fetch('https://opentdb.com/api.php?amount=5&category=17&difficulty=hard')
-    .then(response => response.json())
-    .then(data => {
-      const questions = data.results;
+  function fetchNewQuiz() {
+    // Clear previous questions
+    const quizContainer = document.getElementById('science-quiz');
+    quizContainer.innerHTML = '';
 
-      questions.forEach((question, index) => {
-        const options = [...question.incorrect_answers, question.correct_answer];
-        options.sort(() => Math.random() - 0.5); // Shuffle the options
+    // Fetch the new questions
+    fetch('https://opentdb.com/api.php?amount=5&category=17&difficulty=hard')
+      .then(response => response.json())
+      .then(data => {
+        const questions = data.results;
 
-        // Create a container for each question
-        const questionContainer = document.createElement('div');
-        questionContainer.classList.add('quiz-question');
-        questionContainer.innerHTML = `
-          <p>${question.question}</p>
-          <ul class="quiz-options">
-            ${options.map((option, optionIndex) => `
-              <li data-correct="${option === question.correct_answer ? 'true' : 'false'}">${option}</li>
-            `).join('')}
-          </ul>
-          <p class="quiz-feedback"></p>
-        `;
+        questions.forEach((question, index) => {
+          const options = [...question.incorrect_answers, question.correct_answer];
+          options.sort(() => Math.random() - 0.5); 
 
-        // Attach click event to options for this question only
-        const optionElements = questionContainer.querySelectorAll('.quiz-options li');
-        optionElements.forEach(option => {
-          option.addEventListener('click', function() {
-            const correct = this.getAttribute('data-correct') === 'true';
-            const feedback = this.parentElement.nextElementSibling;
-            feedback.textContent = correct ? 'Correct!' : 'Incorrect!';
-            feedback.style.color = correct ? 'green' : 'red';
+          const questionContainer = document.createElement('div');
+          questionContainer.classList.add('quiz-question');
+          questionContainer.innerHTML = `
+            <p>${question.question}</p>
+            <ul class="quiz-options">
+              ${options.map((option, optionIndex) => `
+                <li data-correct="${option === question.correct_answer ? 'true' : 'false'}">${option}</li>
+              `).join('')}
+            </ul>
+            <p class="quiz-feedback"></p>
+          `;
 
-            optionElements.forEach(elem => {
-              elem.style.pointerEvents = 'none'; // Disable further clicks
-              if (elem.getAttribute('data-correct') === 'true') {
-                elem.style.color = 'green';
-              }
+          const optionElements = questionContainer.querySelectorAll('.quiz-options li');
+          optionElements.forEach(option => {
+            option.addEventListener('click', function() {
+              const correct = this.getAttribute('data-correct') === 'true';
+              const feedback = this.parentElement.nextElementSibling;
+              feedback.textContent = correct ? 'Correct!' : 'Incorrect!';
+              feedback.style.color = correct ? 'green' : 'red';
+
+              optionElements.forEach(elem => {
+                elem.style.pointerEvents = 'none'; 
+                if (elem.getAttribute('data-correct') === 'true') {
+                  elem.style.color = 'green';
+                }
+              });
             });
           });
-        });
 
-        // Append the question container to the quiz pop-up container
-        const quizContainer = document.getElementById('science-quiz');
-        quizContainer.appendChild(questionContainer);
+          quizContainer.appendChild(questionContainer);
+        });
+      })
+      .catch(error => {
+        console.error('Error fetching quiz:', error);
       });
-    })
-    .catch(error => {
-      console.error('Error fetching quiz:', error);
-    });
+  }
+
+  fetchNewQuiz();
 </script>
+</div>
+
+
 
 <style>
   button {
@@ -126,7 +133,6 @@ layout: page
     margin-top: 10px;
   }
 </style>
-
 
 
 <div class="bubble-section">
