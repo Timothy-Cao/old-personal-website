@@ -19,13 +19,11 @@ layout: page
 <!-----------------------------SCIENCE QUIZ ----------------------------->
 <div class="bubble-section">
 
-<h2><span style="color: #89CFF0;">Make Bill Nye Proud: General Science Knowledge</span></h2>
+<h2><span style="color: #89CFF0;">Random science quiz</span></h2>
 
 <button id="next-question-button" onclick="fetchNewQuiz()">Next Question</button>
 
 <div class="quiz-container">
-    <h2>General Science Knowledge Quiz</h2>
-    <p>Select the correct answer by clicking on the option.</p>
     <div id="science-quiz">
     </div>
 </div>
