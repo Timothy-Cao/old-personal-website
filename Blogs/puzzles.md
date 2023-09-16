@@ -207,7 +207,7 @@ function toggleSpoiler(spoilerId) {
 
     <div class="puzzle">
         <h3 style="color: #89CFF0;">The Four 4's Puzzle</h3>
-        <p>Using exactly four \(4\)'s and the operations \(+\), \(-\), \(\times\), \(\div\), \(\sqrt{x}\), and \(x^y\), along with any number of brackets, how many integers starting from 0 can you produce?</p>
+        <p>Using exactly four \(4\)'s and the operations \(+\), \(-\), \(\times\), \(\div\), \(\sqrt{x}\), and \(x^y\), and brackets, how many integers starting from 0 can you produce?</p>
         <p>For instance:<br>
         \(0 = 44 - 44\) <br>
         \(1 = \frac{44}{44}\) <br>
