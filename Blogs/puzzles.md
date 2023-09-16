@@ -1,5 +1,6 @@
 ---
 title: ""
+mathjax: true
 permalink: "/blog/puzzle"
 layout: page
 ---
