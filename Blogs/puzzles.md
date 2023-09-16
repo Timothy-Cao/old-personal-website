@@ -16,6 +16,8 @@ layout: page
   }
 </style>
 
+<!-----------------------------SCIENCE QUIZ ----------------------------->
+
 <div class="bubble-section">
 
 <h2><span style="color: #89CFF0;">Make Bill Nye Proud: General Science Knowledge</span></h2>
@@ -135,6 +137,7 @@ layout: page
 </style>
 
 
+<!-----------------------------TETRIS PUZZLE ----------------------------->
 <div class="bubble-section">
 
 <h2><span style="color: #89CFF0;">Tetris Puzzles</span></h2>
@@ -148,7 +151,7 @@ layout: page
   </div>
 </div>
 </div>
-
+<!-----------------------------CHESS PUZZLE ----------------------------->
 <div class="bubble-section">
 <h2><span style="color: #89CFF0;">Chess Puzzles</span></h2>
 <p>Difficulty: 2100</p>
@@ -160,12 +163,12 @@ layout: page
   </div>
 </div>
 </div>
-
+<!-----------------------------LOGIC PUZZLE ----------------------------->
 <div class="bubble-section">
 <h2><span style="color: #89CFF0;">Logic Puzzles</span></h2>
 <p>WIP</p>
 </div>
-
+<!-----------------------------FERMI PUZZLE ----------------------------->
 <div class="bubble-section">
 <h2><span style="color: #89CFF0;">Fermi Estimations</span></h2>
 <p>WIP</p>
