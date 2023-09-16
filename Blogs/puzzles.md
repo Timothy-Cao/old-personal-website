@@ -128,9 +128,8 @@ layout: page
 
 
 
-</div>
-
 <div class="bubble-section">
+
 <h2><span style="color: #89CFF0;">Tetris Puzzles</span></h2>
 <p>A surprisingly hard puzzle that may arise from PCO</p>
 <a href="https://jstris.jezevec10.com/?play=6&map=51132" target="_blank">Play it yourself!</a>
@@ -144,44 +143,29 @@ layout: page
 </div>
 
 <div class="bubble-section">
-
-## <span style="color: #89CFF0;">Chess Puzzles</span>
-
-Difficulty: 2100
-
-![chess puzzle 1](../assets/images/chess_puzzle1.png){:width="400px" height="400px"}
-
+<h2><span style="color: #89CFF0;">Chess Puzzles</span></h2>
+<p>Difficulty: 2100</p>
+<img src="../assets/images/chess_puzzle1.png" style="width: 400px; height: 400px;">
 <div>
   <button onclick="toggleSpoiler('chessSpoiler1')">Show/Hide Solution</button>
   <div id="chessSpoiler1" style="display:none;">
     1... Bg4 2. Rxe8+ Rxe8 3. h3 Bxh5 4. Bd6 Nf8 5. Bxc5 Rb8 6. Bd5 Rb5 7. d4 Nd7 8. c4 Rb1+ 9. Kh2
   </div>
 </div>
-
 </div>
 
 <div class="bubble-section">
-
-## <span style="color: #89CFF0;">Logic Puzzles</span>
-
-WIP
-
+<h2><span style="color: #89CFF0;">Logic Puzzles</span></h2>
+<p>WIP</p>
 </div>
 
 <div class="bubble-section">
-
-## <span style="color: #89CFF0;">Fermi Estimations</span>
-
-WIP
-
+<h2><span style="color: #89CFF0;">Fermi Estimations</span></h2>
+<p>WIP</p>
 </div>
 
 <div class="bubble-section">
-
-## <span style="color: #89CFF0;">Naruto Quiz</span>
-
-Difficult Naruto quiz
-
+<h2><span style="color: #89CFF0;">Naruto Quiz</span></h2>
+<p>Difficult Naruto quiz</p>
 <iframe src="https://take.quiz-maker.com/QSQLDBXP8" width="500" height="500"></iframe>
-
 </div>
