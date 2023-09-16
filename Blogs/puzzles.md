@@ -170,9 +170,3 @@ layout: page
 <h2><span style="color: #89CFF0;">Fermi Estimations</span></h2>
 <p>WIP</p>
 </div>
-
-<div class="bubble-section">
-<h2><span style="color: #89CFF0;">Naruto Quiz</span></h2>
-<p>Difficult Naruto quiz</p>
-<iframe src="https://take.quiz-maker.com/QSQLDBXP8" width="500" height="500"></iframe>
-</div>
