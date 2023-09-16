@@ -24,8 +24,6 @@ layout: page
 <button id="next-question-button" onclick="fetchNewQuiz()">Next Question</button>
 
 <div class="quiz-container">
-    <h2>General Science Knowledge Quiz</h2>
-    <p>Select the correct answer by clicking on the option.</p>
     <div id="science-quiz">
         <p>Loading...</p>
     </div>
@@ -74,8 +72,6 @@ layout: page
   fetchNewQuiz();
 </script>
 </div>
-
-
 
 
 
