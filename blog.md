@@ -13,18 +13,18 @@ layout: page
 </div>
 
 <div style="display: flex; align-items: flex-start; justify-content: space-between; margin-bottom: 20px; box-shadow: 0 4px 8px rgba(255, 255, 255, 0.2); padding: 20px;">
-  <img src="../assets/images/desmos.png" alt="Desmos Art" style="width: 150px; height: 150px;">
-  <div style="margin-left: 20px; flex-grow: 1;">
-    <h1 style="margin: 0; text-align: right;">Desmos Art Journey</h1>
-    <a href="https://timothy-cao.github.io/personal/blog/desmos" style="text-align: right; display: block;">Interested in turning math into art?</a>
-  </div>
-</div>
-
-<div style="display: flex; align-items: flex-start; justify-content: space-between; margin-bottom: 20px; box-shadow: 0 4px 8px rgba(255, 255, 255, 0.2); padding: 20px;">
   <img src="../assets/images/puzzle.png" alt="Puzzle" style="width: 150px; height: 150px;">
   <div style="margin-left: 20px; flex-grow: 1;">
     <h1 style="margin: 0; text-align: right;">Puzzles and Quizzes</h1>
     <a href="https://timothy-cao.github.io/personal/blog/puzzle" style="text-align: right; display: block;">If your brain is itching for a challenge</a>
+  </div>
+</div>
+
+<div style="display: flex; align-items: flex-start; justify-content: space-between; margin-bottom: 20px; box-shadow: 0 4px 8px rgba(255, 255, 255, 0.2); padding: 20px;">
+  <img src="../assets/images/desmos.png" alt="Desmos Art" style="width: 150px; height: 150px;">
+  <div style="margin-left: 20px; flex-grow: 1;">
+    <h1 style="margin: 0; text-align: right;">Desmos Art Journey</h1>
+    <a href="https://timothy-cao.github.io/personal/blog/desmos" style="text-align: right; display: block;">Interested in turning math into art?</a>
   </div>
 </div>
 
