@@ -91,9 +91,6 @@ layout: page
 </script>
 </div>
 
-
-
-
 <style>
   button {
     margin-bottom: 10px;
@@ -126,7 +123,7 @@ layout: page
 <div class="bubble-section">
 
 <h2><span style="color: #89CFF0;">Tetris Puzzles</span></h2>
-<p>A surprisingly hard puzzle that may arise from PCO</p>
+<p>A surprisingly hard puzzle that may arise from PCO. Goal: Clear the board with no residue.</p>
 <img src="../assets/images/tetris_puzzle1.png" style="width: 300px; height: 400px;"><br>
 <a href="https://jstris.jezevec10.com/?play=6&map=51132" target="_blank">Play it yourself!</a>
 <div>
