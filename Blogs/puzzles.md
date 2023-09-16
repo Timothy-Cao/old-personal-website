@@ -206,18 +206,18 @@ function toggleSpoiler(spoilerId) {
 
     <div class="puzzle">
         <h3 style="color: #89CFF0;">The Four 4's Puzzle</h3>
-        <p>Using exactly four 4's and the operations +, -, *, /, sqrt(x), exp(x,y), and any number of brackets, can you create as many integers as possible, starting from 0 and going upwards?</p>
+        <p>Using exactly four \(4\)'s and the operations \(+\), \(-\), \(\times\), \(\div\), \(\sqrt{x}\), and \(x^y\), along with any number of brackets, how many integers starting from 0 can you produce?</p>
         <p>For instance:<br>
-        0 = 44 - 44 <br>
-        1 = 44 / 44 <br>
-        2 = 4 / 4 + 4 / 4 <br>
+        \(0 = 44 - 44\) <br>
+        \(1 = \frac{44}{44}\) <br>
+        \(2 = \frac{4}{4} + \frac{4}{4}\) <br>
         ... and so on.
         </p>
-        <p>How many integers can you form? And what are they?</p>
+        <p>How many integers can you form?</p>
 
         <div class="bonus-section">
             <h4 style="color: #89CFF0;">Bonus Challenge:</h4>
-            <p>Can you generalize the puzzle so that with a specific number of 4's you can produce any positive integer? Or even further, can you produce any real number?</p>
+            <p>Can you generalize your solution to produce any positive integer?</p>
         </div>
     </div>
 </div>
