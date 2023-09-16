@@ -60,6 +60,24 @@ layout: page
 
         quizContainer.appendChild(questionContainer);
 
+        // Add click event listeners for the answer options
+        const optionElements = questionContainer.querySelectorAll('.quiz-options li');
+        optionElements.forEach(option => {
+          option.addEventListener('click', function() {
+            const correct = this.getAttribute('data-correct') === 'true';
+            const feedback = this.parentElement.nextElementSibling;
+            feedback.textContent = correct ? 'Correct!' : 'Incorrect!';
+            feedback.style.color = correct ? 'green' : 'red';
+
+            optionElements.forEach(elem => {
+              elem.style.pointerEvents = 'none'; 
+              if (elem.getAttribute('data-correct') === 'true') {
+                elem.style.color = 'green';
+              }
+            });
+          });
+        });
+
         // Reset the container's height
         quizContainer.style.height = 'auto';
       })
@@ -72,6 +90,7 @@ layout: page
   fetchNewQuiz();
 </script>
 </div>
+
 
 
 
