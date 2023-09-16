@@ -142,8 +142,8 @@ layout: page
 
 <h2><span style="color: #89CFF0;">Tetris Puzzles</span></h2>
 <p>A surprisingly hard puzzle that may arise from PCO</p>
+<img src="../assets/images/tetris_puzzle1.png" style="width: 300px; height: 400px;"><br>
 <a href="https://jstris.jezevec10.com/?play=6&map=51132" target="_blank">Play it yourself!</a>
-<img src="../assets/images/tetris_puzzle1.png" style="width: 300px; height: 400px;">
 <div>
   <button onclick="toggleSpoiler('tetrisSpoiler1')">Show/Hide Hint</button>
   <div id="tetrisSpoiler1" style="display:none;">
@@ -151,6 +151,17 @@ layout: page
   </div>
 </div>
 </div>
+
+<script>
+function toggleSpoiler(spoilerId) {
+    const spoiler = document.getElementById(spoilerId);
+    if (spoiler.style.display === "none") {
+        spoiler.style.display = "block";
+    } else {
+        spoiler.style.display = "none";
+    }
+}
+</script>
 <!-----------------------------CHESS PUZZLE ----------------------------->
 <div class="bubble-section">
 <h2><span style="color: #89CFF0;">Chess Puzzles</span></h2>
