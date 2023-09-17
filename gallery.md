@@ -66,7 +66,7 @@ permalink: /gallery/
   <div class="tab" onclick="showGallery('AI')">AI Gallery</div>
 </div>
 
-<div class="gallery-container active" id="rabbit-gallery">
+<div class="gallery-container active" id="seasonal-gallery">
   <h1 class="gallery-title">Rabbit Gallery</h1>
   <div class="gallery-table">
     <div>
