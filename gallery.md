@@ -66,6 +66,36 @@ permalink: /gallery/
   <div class="tab" onclick="showGallery('AI')">AI Gallery</div>
 </div>
 
+<div class="gallery-container active" id="seasonal-gallery">
+  <h1 class="gallery-title">Summer 2023</h1>
+  <div class="gallery-table">
+    <div>
+      <img src="../assets/images/summer1.jpeg" alt="summer1" class="gallery-image">
+      <p class="gallery-caption">Cast us for your next horror movie</p>
+    </div>
+    <div>
+      <img src="../assets/images/summer2.jpg" alt="summer2" class="gallery-image">
+      <p class="gallery-caption">I'm something of a celebrity myself</p>
+    </div>
+    <div>
+      <img src="../assets/images/summer3.jpg" alt="summer3" class="gallery-image">
+      <p class="gallery-caption">(Physical) Labour of love</p>
+    </div>
+    <div>
+      <img src="../assets/images/summer4.jpg" alt="summer4" class="gallery-image">
+      <p class="gallery-caption">Pinkies up!</p>
+    </div>
+    <div>
+      <img src="../assets/images/summer5.jpg" alt="summer5" class="gallery-image">
+      <p class="gallery-caption">I'm actually 100ft in the air</p>
+    </div>
+    <div>
+      <img src="../assets/images/summer6.jpg" alt="summer6" class="gallery-image">
+      <p class="gallery-caption">Creatures of the night</p>
+    </div>
+  </div>
+</div>
+
 <div class="gallery-container" id="rabbit-gallery">
   <h1 class="gallery-title">Rabbit Gallery</h1>
   <div class="gallery-table">
@@ -110,36 +140,6 @@ permalink: /gallery/
     <div>
       <img src="../assets/images/photography3.jpg" alt="photography3" class="gallery-image">
       <p class="gallery-caption">Photo by Image.Rosie</p>
-    </div>
-  </div>
-</div>
-
-<div class="gallery-container active" id="seasonal-gallery">
-  <h1 class="gallery-title">Summer 2023</h1>
-  <div class="gallery-table">
-    <div>
-      <img src="../assets/images/summer1.jpeg" alt="summer1" class="gallery-image">
-      <p class="gallery-caption">Cast us for your next horror movie</p>
-    </div>
-    <div>
-      <img src="../assets/images/summer2.jpg" alt="summer2" class="gallery-image">
-      <p class="gallery-caption">I'm something of a celebrity myself</p>
-    </div>
-    <div>
-      <img src="../assets/images/summer3.jpg" alt="summer3" class="gallery-image">
-      <p class="gallery-caption">(Physical) Labour of love</p>
-    </div>
-    <div>
-      <img src="../assets/images/summer4.jpg" alt="summer4" class="gallery-image">
-      <p class="gallery-caption">Pinkies up!</p>
-    </div>
-    <div>
-      <img src="../assets/images/summer5.jpg" alt="summer5" class="gallery-image">
-      <p class="gallery-caption">I'm actually 100ft in the air</p>
-    </div>
-    <div>
-      <img src="../assets/images/summer6.jpg" alt="summer6" class="gallery-image">
-      <p class="gallery-caption">Creatures of the night</p>
     </div>
   </div>
 </div>
