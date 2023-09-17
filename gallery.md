@@ -60,9 +60,9 @@ permalink: /gallery/
 </style>
 
 <div class="tab-container">
+  <div class="tab" onclick="showGallery('seasonal')">Seasonal Gallery</div>
   <div class="tab active" onclick="showGallery('rabbit')">Rabbit Gallery</div>
   <div class="tab" onclick="showGallery('photography')">Photography Gallery</div>
-  <div class="tab" onclick="showGallery('seasonal')">Seasonal Gallery</div>
   <div class="tab" onclick="showGallery('AI')">AI Gallery</div>
 </div>
 
