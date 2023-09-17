@@ -68,4 +68,3 @@ layout: page
     <a href="https://timothy-cao.github.io/personal/blog/comingsoon" style="text-align: right; display: block;">Academics</a>
   </div>
 </div>
-
