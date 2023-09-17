@@ -115,7 +115,7 @@ permalink: /gallery/
 </div>
 
 <div class="gallery-container" id="seasonal-gallery">
-  <h1 class="gallery-title">Seasonal Pics (Summer 23)</h1>
+  <h1 class="gallery-title">Summer 2023</h1>
   <div class="gallery-table">
     <div>
       <img src="../assets/images/summer1.jpeg" alt="summer1" class="gallery-image">
