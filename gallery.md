@@ -122,24 +122,24 @@ permalink: /gallery/
       <p class="gallery-caption">Cast us for your next horror movie</p>
     </div>
     <div>
-      <img src="../assets/images/summer2.jpg" alt="summer2" class="gallery-image">
+      <img src="../assets/images/summer3.jpg" alt="summer2" class="gallery-image">
       <p class="gallery-caption">Pinkies up!</p>
     </div>
     <div>
-      <img src="../assets/images/summer3.jpg" alt="summer3" class="gallery-image">
-      <p class="gallery-caption">Do ya want an autograph too?</p>
+      <img src="../assets/images/summer6.jpg" alt="summer3" class="gallery-image">
+      <p class="gallery-caption">I'm something of a celebrity myself</p>
     </div>
     <div>
-      <img src="../assets/images/summer4.jpg" alt="summer4" class="gallery-image">
+      <img src="../assets/images/summer2.jpg" alt="summer4" class="gallery-image">
       <p class="gallery-caption">I'm actually 100ft in the air</p>
     </div>
     <div>
-      <img src="../assets/images/summer5.jpg" alt="summer5" class="gallery-image">
+      <img src="../assets/images/summer4.jpg" alt="summer5" class="gallery-image">
       <p class="gallery-caption">Creatures of the night</p>
     </div>
     <div>
-      <img src="../assets/images/summer6.jpg" alt="summer6" class="gallery-image">
-      <p class="gallery-caption">Physical Labour of love</p>
+      <img src="../assets/images/summer5.jpg" alt="summer6" class="gallery-image">
+      <p class="gallery-caption">(Physical) Labour of love</p>
     </div>
   </div>
 </div>
