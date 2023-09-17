@@ -62,7 +62,7 @@ permalink: /gallery/
 <div class="tab-container">
   <div class="tab active" onclick="showGallery('rabbit')">Rabbit Gallery</div>
   <div class="tab" onclick="showGallery('photography')">Photography Gallery</div>
-  <div class="tab" onclick="showGallery('food')">Food Gallery</div>
+  <div class="tab" onclick="showGallery('monthly')">Monthly Gallery</div>
   <div class="tab" onclick="showGallery('AI')">AI Gallery</div>
 </div>
 
