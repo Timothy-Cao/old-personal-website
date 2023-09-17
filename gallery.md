@@ -106,12 +106,32 @@ permalink: /gallery/
   </div>
 </div>
 
-<div class="gallery-container" id="food-gallery">
-  <h1 class="gallery-title">Food Gallery</h1>
+<div class="gallery-container" id="monthly-gallery">
+  <h1 class="gallery-title">Seasonal Pics (Summer 23)</h1>
   <div class="gallery-table">
-      <div>
-      <img src="../assets/images/gallery_food1.jpg" alt="food1" class="gallery-image">
-      <p class="gallery-caption">Stock image</p>
+    <div>
+      <img src="../assets/images/summer1.jpeg" alt="summer1" class="gallery-image">
+      <p class="gallery-caption">Cast us for your next horror movie</p>
+    </div>
+    <div>
+      <img src="../assets/images/summer2.jpg" alt="summer2" class="gallery-image">
+      <p class="gallery-caption">Pinkies up!</p>
+    </div>
+    <div>
+      <img src="../assets/images/summer3.jpg" alt="summer3" class="gallery-image">
+      <p class="gallery-caption">Do ya want an autograph too?</p>
+    </div>
+    <div>
+      <img src="../assets/images/summer4.jpg" alt="summer4" class="gallery-image">
+      <p class="gallery-caption">I'm actually 100ft in the air</p>
+    </div>
+    <div>
+      <img src="../assets/images/summer5.jpg" alt="summer5" class="gallery-image">
+      <p class="gallery-caption">Creatures of the night</p>
+    </div>
+    <div>
+      <img src="../assets/images/summer6.jpg" alt="summer6" class="gallery-image">
+      <p class="gallery-caption">Physical Labour of love</p>
     </div>
   </div>
 </div>
