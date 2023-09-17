@@ -100,8 +100,16 @@ permalink: /gallery/
   <h1 class="gallery-title">Photography Gallery</h1>
   <div class="gallery-table">
       <div>
-      <img src="../assets/images/gallery_photography1.jpg" alt="photography1" class="gallery-image">
-      <p class="gallery-caption">Stock image</p>
+      <img src="../assets/images/photography1.jpg" alt="photography1" class="gallery-image">
+      <p class="gallery-caption">Photo by Angus Lai</p>
+    </div>
+    <div>
+      <img src="../assets/images/photography2.jpg" alt="photography2" class="gallery-image">
+      <p class="gallery-caption">Photo by Image.Rosie</p>
+    </div>
+    <div>
+      <img src="../assets/images/photography2.jpg" alt="photography3" class="gallery-image">
+      <p class="gallery-caption">Photo by Image.Rosie</p>
     </div>
   </div>
 </div>
