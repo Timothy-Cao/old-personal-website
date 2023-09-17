@@ -102,20 +102,6 @@ Even more experimental, I'm looking into ways to create tension and stress. Whet
 </body>
 </html>
 
-## <span style="color: #89CFF0;">Autumn Leaves variations</span>
-
-Just some random variations on autumn leaves for our jazz band. This is an early work in progress. It features a classical and jazz style. Currently working on extended smooth jazz section, latin style and some solo parts. 
-
-<html>
-<body>
-  <audio controls>
-    <source src="../assets/audio/Tim's Leaves.mp3" type="audio/mpeg">
-    Your browser does not support the audio element.
-  </audio>
-</body>
-</html>
-
-
 ## <span style="color: #89CFF0;">Game OST 2</span>
 
 This is one of the first orchestral pieces I've attempted. It draws inspiration from Vellum's OST as the primary chord progression and Temple of Time OST for certain rhythms. 
@@ -181,3 +167,15 @@ I don't know why this sounds so nostalgic to me. It draws inspiration from Joe H
 </body>
 </html>
 
+## <span style="color: #89CFF0;">Autumn Leaves variations</span>
+
+Just some random variations on autumn leaves for our jazz band. This is an early work in progress. It features a classical and jazz style. Currently working on extended smooth jazz section, latin style and some solo parts. 
+
+<html>
+<body>
+  <audio controls>
+    <source src="../assets/audio/Tim's Leaves.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+  </audio>
+</body>
+</html>
