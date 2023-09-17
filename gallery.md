@@ -62,7 +62,7 @@ permalink: /gallery/
 <div class="tab-container">
   <div class="tab active" onclick="showGallery('rabbit')">Rabbit Gallery</div>
   <div class="tab" onclick="showGallery('photography')">Photography Gallery</div>
-  <div class="tab" onclick="showGallery('monthly')">Monthly Gallery</div>
+  <div class="tab" onclick="showGallery('monthly')">Seasonal Gallery</div>
   <div class="tab" onclick="showGallery('AI')">AI Gallery</div>
 </div>
 
@@ -114,7 +114,7 @@ permalink: /gallery/
   </div>
 </div>
 
-<div class="gallery-container" id="monthly-gallery">
+<div class="gallery-container" id="seasonal-gallery">
   <h1 class="gallery-title">Seasonal Pics (Summer 23)</h1>
   <div class="gallery-table">
     <div>
