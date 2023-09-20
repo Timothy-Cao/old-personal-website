@@ -63,7 +63,7 @@ layout: page
   <img src="../assets/images/comingsoon.png" alt="Coming Soon" style="width: 150px; height: 150px;">
   <div style="margin-left: 20px; flex-grow: 1;">
     <h1 style="margin: 0; text-align: right;">Learning 한국어</h1>
-    <a href="https://timothy-cao.github.io/personal/blog/comingsoon" style="text-align: right; display: block;">Under construction...</a>
+    <a href="https://timothy-cao.github.io/blog/comingsoon" style="text-align: right; display: block;">Under construction...</a>
     <span style="font-size: small; text-align: right; display: block; margin-top: 10px;">Last Modified: 2023 August</span>
   </div>
 </div>
