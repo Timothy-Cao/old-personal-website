@@ -51,6 +51,25 @@ permalink: /about/
     font-size: 16px;
     margin-bottom: 15px;
   }
+  /* Mobile Styles */
+  @media only screen and (max-width: 768px) {
+    .about-container {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+
+    .profile-image {
+      width: 200px;
+      height: 200px;
+      margin-right: 0;
+      margin-bottom: 20px;
+    }
+
+    .about-content {
+      margin-left: 0;
+    }
+  }
 </style>
 
 <div class="about-container">
