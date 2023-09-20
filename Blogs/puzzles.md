@@ -126,7 +126,7 @@ layout: page
 <h2><span style="color: #89CFF0;">Tetris Puzzles</span></h2>
 <p>A surprisingly hard puzzle that may arise from PCO. </p>
 <p>The goal is to fully clear the board.</p>
-<img src="../assets/images/tetris_puzzle1.png" style="width: 300px; height: 400px;"><br>
+<img src="../assets/images/tetris_puzzle1.png" style="width: 300px; height: auto;"><br>
 <a href="https://jstris.jezevec10.com/?play=6&map=51132" target="_blank">Play it yourself!</a>
 <div>
   <button onclick="toggleSpoiler('tetrisSpoiler1')">Show/Hide Hint</button>
@@ -150,7 +150,7 @@ function toggleSpoiler(spoilerId) {
 <div class="bubble-section">
 <h2><span style="color: #89CFF0;">Chess Puzzles</span></h2>
 <p>Difficulty: ~2400</p>
-<img src="../assets/images/chess_puzzle1.png" style="width: 400px; height: 400px;">
+<img src="../assets/images/chess_puzzle1.png" style="width: 400px; height: auto;">
 <div>
   <button onclick="toggleSpoiler('chessSpoiler1')">Show/Hide Solution</button>
   <div id="chessSpoiler1" style="display:none;">
