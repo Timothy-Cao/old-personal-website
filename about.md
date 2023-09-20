@@ -61,7 +61,7 @@ permalink: /about/
 
     .profile-image {
       width: 200px;
-      height: 200px;
+      height: auto;
       margin-right: 0;
       margin-bottom: 20px;
     }
