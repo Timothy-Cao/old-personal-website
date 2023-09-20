@@ -57,6 +57,14 @@ permalink: /gallery/
   .gallery-container.active {
     display: block;
   }
+
+  @media (max-width: 768px) {
+  .tab {
+    margin-right: 5px;
+    padding: 5px 10px;
+    flex-wrap: wrap; 
+  }
+}
 </style>
 
 <div class="tab-container">
