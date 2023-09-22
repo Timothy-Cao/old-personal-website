@@ -95,5 +95,13 @@ layout: page
   </div>
 </div>
 
+<div style="display: flex; align-items: flex-start; justify-content: space-between; margin-bottom: 20px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); padding: 20px; background-color: #1a1a1a;">
+  <img src="../assets/images/comingsoon.png" alt="Coming Soon" style="width: 150px; height: 150px;">
+  <div style="margin-left: 20px; flex-grow: 1;">
+    <h1 style="margin: 0; text-align: right;">Investment</h1>
+    <a href="https://timothy-cao.github.io/blog/comingsoon" style="text-align: right; display: block;">Under construction...</a>
+    <span style="font-size: small; text-align: right; display: block; margin-top: 10px;">Last Modified: 2023 August</span>
+  </div>
+</div>
 
 <hr>
