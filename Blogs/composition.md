@@ -179,3 +179,16 @@ Just some random variations on autumn leaves for our jazz band. This is an early
   </audio>
 </body>
 </html>
+
+## <span style="color: #89CFF0;">My September</span>
+
+WIP: decided to just write my mood this September 2023. It features a small easter egg from yiruma!
+
+<html>
+<body>
+  <audio controls>
+    <source src="../assets/audio/myseptember.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+  </audio>
+</body>
+</html>
