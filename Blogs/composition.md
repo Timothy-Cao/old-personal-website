@@ -23,6 +23,20 @@ This peice took me around 40 hours to compose over 4 months and I consider it to
 </body>
 </html>
 
+## <span style="color: #89CFF0;">My September</span>
+
+WIP: decided to just write my mood this September 2023. It features a small easter egg from yiruma!
+
+<html>
+<body>
+  <audio controls>
+    <source src="../assets/audio/myseptember.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+  </audio>
+</body>
+</html>
+
+
 ## <span style="color: #89CFF0;">8 bit nostalgia</span>
 
 This piece originally written for solo piano has been switched over to a synthesizer. For some reason the melody, chord progression and synthesizer work well together in making it feel nostalgic. The easter egg ending uses a motif from guilty crown. 
@@ -180,15 +194,3 @@ Just some random variations on autumn leaves for our jazz band. This is an early
 </body>
 </html>
 
-## <span style="color: #89CFF0;">My September</span>
-
-WIP: decided to just write my mood this September 2023. It features a small easter egg from yiruma!
-
-<html>
-<body>
-  <audio controls>
-    <source src="../assets/audio/myseptember.mp3" type="audio/mpeg">
-    Your browser does not support the audio element.
-  </audio>
-</body>
-</html>
