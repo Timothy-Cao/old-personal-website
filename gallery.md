@@ -202,7 +202,7 @@ permalink: /gallery/
     </div>
         <div>
       <img src="../assets/images/spook9.jpg" alt="Spook 1" class="gallery-image">
-      <p class="gallery-caption">Watch as I eat and juggle at the same time</p>
+      <p class="gallery-caption">How to eat 3 apples in parallel </p>
     </div>
         <div>
       <img src="../assets/images/spook10.jpg" alt="Spook 1" class="gallery-image">
