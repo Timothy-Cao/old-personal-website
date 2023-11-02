@@ -71,7 +71,7 @@ permalink: /gallery/
   <div class="tab active" onclick="showGallery('seasonal')">Seasonal Gallery</div>
   <div class="tab" onclick="showGallery('rabbit')">Rabbit Gallery</div>
   <div class="tab" onclick="showGallery('photography')">Photography Gallery</div>
-  <div class="tab" onclick="showGallery('Spooky Season')">Spook Gallery</div>
+  <div class="tab" onclick="showGallery('spooky')">Spook Season</div>
 </div>
 
 <div class="gallery-container active" id="seasonal-gallery">
@@ -152,8 +152,8 @@ permalink: /gallery/
   </div>
 </div>
 
-<div class="gallery-container" id="Spook-gallery">
-  <h1 class="gallery-title">Spook Gallery</h1>
+<div class="gallery-container" id="spooky-gallery">
+  <h1 class="gallery-title">Spooky Gallery</h1>
   <div class="gallery-table">
     <div>
       <img src="../assets/images/spook1.jpg" alt="Spook 1" class="gallery-image">
