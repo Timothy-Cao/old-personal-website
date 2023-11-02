@@ -71,7 +71,7 @@ permalink: /gallery/
   <div class="tab active" onclick="showGallery('seasonal')">Seasonal Gallery</div>
   <div class="tab" onclick="showGallery('rabbit')">Rabbit Gallery</div>
   <div class="tab" onclick="showGallery('photography')">Photography Gallery</div>
-  <div class="tab" onclick="showGallery('AI')">AI Gallery</div>
+  <div class="tab" onclick="showGallery('Spooky Season')">Spook Gallery</div>
 </div>
 
 <div class="gallery-container active" id="seasonal-gallery">
@@ -87,7 +87,7 @@ permalink: /gallery/
     </div>
     <div>
       <img src="../assets/images/summer3.jpg" alt="summer3" class="gallery-image">
-      <p class="gallery-caption">(Physical) Labour of love</p>
+      <p class="gallery-caption">POV: You're getting buried alive</p>
     </div>
     <div>
       <img src="../assets/images/summer4.jpg" alt="summer4" class="gallery-image">
@@ -152,21 +152,62 @@ permalink: /gallery/
   </div>
 </div>
 
-<div class="gallery-container" id="AI-gallery">
-  <h1 class="gallery-title">AI Gallery</h1>
+<div class="gallery-container" id="Spook-gallery">
+  <h1 class="gallery-title">Spook Gallery</h1>
   <div class="gallery-table">
     <div>
-      <img src="../assets/images/ai1.jpg" alt="AI 1" class="gallery-image">
-      <p class="gallery-caption">Generated with Remini</p>
+      <img src="../assets/images/spook1.jpg" alt="Spook 1" class="gallery-image">
+      <p class="gallery-caption"></p>
     </div>
     <div>
-      <img src="../assets/images/ai2.jpg" alt="AI 2" class="gallery-image">
-      <p class="gallery-caption">Generated with Remini</p>
+      <img src="../assets/images/spook2.jpg" alt="Spook 1" class="gallery-image">
+      <p class="gallery-caption"></p>
     </div>
-    <div>
-      <img src="../assets/images/ai3.jpg" alt="AI 3" class="gallery-image">
-      <p class="gallery-caption">Generated with Remini</p>
+        <div>
+      <img src="../assets/images/spook3.jpg" alt="Spook 1" class="gallery-image">
+      <p class="gallery-caption"></p>
     </div>
+        <div>
+      <img src="../assets/images/spook4.jpg" alt="Spook 1" class="gallery-image">
+      <p class="gallery-caption"></p>
+    </div>
+        <div>
+      <img src="../assets/images/spook5.jpg" alt="Spook 1" class="gallery-image">
+      <p class="gallery-caption"></p>
+    </div>
+        <div>
+      <img src="../assets/images/spook6.jpg" alt="Spook 1" class="gallery-image">
+      <p class="gallery-caption"></p>
+    </div>
+        <div>
+      <img src="../assets/images/spook7.jpg" alt="Spook 1" class="gallery-image">
+      <p class="gallery-caption"></p>
+    </div>
+        <div>
+      <img src="../assets/images/spook8.jpg" alt="Spook 1" class="gallery-image">
+      <p class="gallery-caption"></p>
+    </div>
+        <div>
+      <img src="../assets/images/spook9.jpg" alt="Spook 1" class="gallery-image">
+      <p class="gallery-caption"></p>
+    </div>
+        <div>
+      <img src="../assets/images/spook10.jpg" alt="Spook 1" class="gallery-image">
+      <p class="gallery-caption"></p>
+    </div>
+        <div>
+      <img src="../assets/images/spook11.jpg" alt="Spook 1" class="gallery-image">
+      <p class="gallery-caption"></p>
+    </div>
+        <div>
+      <img src="../assets/images/spook12.jpg" alt="Spook 1" class="gallery-image">
+      <p class="gallery-caption"></p>
+    </div>
+        <div>
+      <img src="../assets/images/spook.jpg" alt="Spook 1" class="gallery-image">
+      <p class="gallery-caption"></p>
+    </div>
+    
   </div> 
 </div>
 
