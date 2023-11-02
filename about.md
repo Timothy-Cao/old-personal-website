@@ -85,8 +85,8 @@ permalink: /about/
 
 <div class="hobbies-section">
   <h1 class="hobbies-title">Hobbies</h1>
-  <p class="hobbies-text">Despite being deeply immersed in STEM, I'd like to believe I'm a very creative person. You might find me playing or creating music when I'm not doodling or designing.</p>
-  <p class="hobbies-text">In an effort to avoid withering away, I also spend time bouldering and playing all kinds of racquet sports. I don't want to lose a pushup contest with my future grandkids.</p>
+  <p class="hobbies-text">Despite being deeply immersed in STEM, I'd like to believe I'm a very creative person. You might find me playing or creating music when I'm not engaged in visual arts. 
+  <p class="hobbies-text">In an effort to avoid withering away, I also spend time bouldering and playing all kinds of racquet sports. I don't want to lose a pushup contest with my future grandkids. </p>
 </div>
 
 <div class="recreation-section">
