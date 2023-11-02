@@ -101,6 +101,31 @@ permalink: /gallery/
       <img src="../assets/images/summer6.jpg" alt="summer6" class="gallery-image">
       <p class="gallery-caption">Creatures of the night</p>
     </div>
+    <div>
+      <img src="../assets/images/summer7.jpg" alt="summer6" class="gallery-image">
+      <p class="gallery-caption">Bro is scared of the water</p>
+    </div>
+    <div>
+      <img src="../assets/images/summer8.jpg" alt="summer6" class="gallery-image">
+      <p class="gallery-caption">This is my painting believe it or not</p>
+    </div>
+    <div>
+      <img src="../assets/images/summer9.jpg" alt="summer6" class="gallery-image">
+      <p class="gallery-caption">Fois Gros is discarsting</p>
+    </div>
+    <div>
+      <img src="../assets/images/summer10.jpg" alt="summer6" class="gallery-image">
+      <p class="gallery-caption">When I paint on the walls they call it vandalism, when they do it, it's art.</p>
+    </div>
+    <div>
+      <img src="../assets/images/summer11.jpg" alt="summer6" class="gallery-image">
+      <p class="gallery-caption">The ugly duckling that stayed ugly</p>
+    </div>
+    <div>
+      <img src="../assets/images/summer12.jpg" alt="summer6" class="gallery-image">
+      <p class="gallery-caption">POV: you can't afford roads</p>
+    </div>
+    
   </div>
 </div>
 
