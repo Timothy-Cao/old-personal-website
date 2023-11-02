@@ -184,7 +184,7 @@ permalink: /gallery/
       <p class="gallery-caption">Murder mystery</p>
     </div>
         <div>
-      <img src="../assets/images/spook8.jpg" alt="Spook 1" class="gallery-image">
+      <img src="../assets/images/spook8.png" alt="Spook 1" class="gallery-image">
       <p class="gallery-caption">The Exorcist</p>
     </div>
         <div>
