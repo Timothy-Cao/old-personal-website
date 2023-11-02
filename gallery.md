@@ -115,7 +115,7 @@ permalink: /gallery/
     </div>
     <div>
       <img src="../assets/images/summer10.jpg" alt="summer6" class="gallery-image">
-      <p class="gallery-caption">This is my painting believe it or not</p>
+      <p class="gallery-caption">Cloud.</p>
     </div>
     <div>
       <img src="../assets/images/summer11.jpg" alt="summer6" class="gallery-image">
