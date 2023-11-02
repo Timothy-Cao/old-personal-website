@@ -107,7 +107,7 @@ permalink: /gallery/
     </div>
         <div>
       <img src="../assets/images/summer8.jpg" alt="summer6" class="gallery-image">
-      <p class="gallery-caption">When I paint on the walls they call it vandalism, when they do it, it's art.</p>
+      <p class="gallery-caption">When I paint on the walls they call it vandalism</p>
     </div>
     <div>
       <img src="../assets/images/summer9.jpg" alt="summer6" class="gallery-image">
@@ -119,7 +119,7 @@ permalink: /gallery/
     </div>
     <div>
       <img src="../assets/images/summer11.jpg" alt="summer6" class="gallery-image">
-      <p class="gallery-caption">Fois Gros is discarsting</p>
+      <p class="gallery-caption">Foie Gras is discarsting</p>
     </div>
     <div>
       <img src="../assets/images/summer12.jpg" alt="summer6" class="gallery-image">
