@@ -91,6 +91,6 @@ permalink: /about/
 
 <div class="recreation-section">
   <h1 class="recreation-title">Recreation</h1>
-  <p class="recreation-text">I believe that video games are one of the best ways to stay connected with friends who can't meet in person. If I'm gaming, I usually spend my time on TFT, League, Tetris, chess or co-op games.</p>
-  <p class="recreation-text">I'm also currently in the middle of watching Vinland Saga and it's amazing -highly recommend!</p>
+  <p class="recreation-text">I believe that video games are one of the best ways to stay connected with friends who can't meet in person. If I'm gaming, I usually spend my time on TFT, League, Tetris, chess or co-op games. My favourite all time game is It Takes Two!</p>
+  <p class="recreation-text">If you're looking for a show to start, I'm currently enjoying Atypical, A Goodplace, Jujutsu Kaisen S2 and A Time Called You</p>
 </div>
