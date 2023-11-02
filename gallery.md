@@ -157,57 +157,51 @@ permalink: /gallery/
   <div class="gallery-table">
     <div>
       <img src="../assets/images/spook1.jpg" alt="Spook 1" class="gallery-image">
-      <p class="gallery-caption"></p>
+      <p class="gallery-caption">Pumpkins</p>
     </div>
     <div>
       <img src="../assets/images/spook2.jpg" alt="Spook 1" class="gallery-image">
-      <p class="gallery-caption"></p>
+      <p class="gallery-caption">More Pumpkins</p>
     </div>
         <div>
       <img src="../assets/images/spook3.jpg" alt="Spook 1" class="gallery-image">
-      <p class="gallery-caption"></p>
+      <p class="gallery-caption">Even More Pumpkins</p>
     </div>
         <div>
       <img src="../assets/images/spook4.jpg" alt="Spook 1" class="gallery-image">
-      <p class="gallery-caption"></p>
+      <p class="gallery-caption">Even Even More Pumpkins</p>
     </div>
         <div>
       <img src="../assets/images/spook5.jpg" alt="Spook 1" class="gallery-image">
-      <p class="gallery-caption"></p>
+      <p class="gallery-caption">Even Even Even More Pumpkins</p>
     </div>
         <div>
       <img src="../assets/images/spook6.jpg" alt="Spook 1" class="gallery-image">
-      <p class="gallery-caption"></p>
+      <p class="gallery-caption">Rawr</p>
     </div>
         <div>
       <img src="../assets/images/spook7.jpg" alt="Spook 1" class="gallery-image">
-      <p class="gallery-caption"></p>
+      <p class="gallery-caption">Murder mystery</p>
     </div>
         <div>
       <img src="../assets/images/spook8.jpg" alt="Spook 1" class="gallery-image">
-      <p class="gallery-caption"></p>
+      <p class="gallery-caption">The Exorcist</p>
     </div>
         <div>
       <img src="../assets/images/spook9.jpg" alt="Spook 1" class="gallery-image">
-      <p class="gallery-caption"></p>
+      <p class="gallery-caption">Watch as I eat and juggle at the same time</p>
     </div>
         <div>
       <img src="../assets/images/spook10.jpg" alt="Spook 1" class="gallery-image">
-      <p class="gallery-caption"></p>
+      <p class="gallery-caption">UFO spotting</p>
     </div>
         <div>
       <img src="../assets/images/spook11.jpg" alt="Spook 1" class="gallery-image">
-      <p class="gallery-caption"></p>
+      <p class="gallery-caption">Tribe Leader Cao</p>
     </div>
         <div>
       <img src="../assets/images/spook12.jpg" alt="Spook 1" class="gallery-image">
-      <p class="gallery-caption"></p>
-    </div>
-        <div>
-      <img src="../assets/images/spook.jpg" alt="Spook 1" class="gallery-image">
-      <p class="gallery-caption"></p>
-    </div>
-    
+      <p class="gallery-caption">Autumn Painting</p>
   </div> 
 </div>
 
