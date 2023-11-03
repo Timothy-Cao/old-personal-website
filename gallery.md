@@ -71,7 +71,7 @@ permalink: /gallery/
   <div class="tab active" onclick="showGallery('seasonal')">Tanning Season</div>
   <div class="tab" onclick="showGallery('spooky')">Spook Season</div>
   <div class="tab" onclick="showGallery('rabbit')">Rabbit Gallery</div>
-  <div class="tab" onclick="showGallery('photography')">Photography Gallery</div>
+  <div class="tab" onclick="showGallery('cooking')">Cooking Gallery</div>
 </div>
 
 <div class="gallery-container active" id="seasonal-gallery">
@@ -159,9 +159,58 @@ permalink: /gallery/
   </div>
 </div>
 
-<div class="gallery-container" id="photography-gallery">
-  <h1 class="gallery-title">Photography Gallery</h1>
+<div class="gallery-container" id="cooking-gallery">
+  <h1 class="gallery-title">Cooking Gallery</h1>
   <div class="gallery-table">
+      <div>
+      <img src="../assets/images/chef1.jpg" alt="Food 1" class="gallery-image">
+      <p class="gallery-caption"></p>
+    </div>
+    <div>
+      <img src="../assets/images/chef2.jpg" alt="Food 1" class="gallery-image">
+      <p class="gallery-caption"></p>
+    </div>
+    <div>
+      <img src="../assets/images/chef3.jpg" alt="Food 1" class="gallery-image">
+      <p class="gallery-caption"></p>
+    </div>
+    <div>
+      <img src="../assets/images/chef4.jpg" alt="Food 1" class="gallery-image">
+      <p class="gallery-caption"></p>
+    </div>
+    <div>
+      <img src="../assets/images/chef5.jpg" alt="Food 1" class="gallery-image">
+      <p class="gallery-caption"></p>
+    </div>
+    <div>
+      <img src="../assets/images/chef6.jpg" alt="Food 1" class="gallery-image">
+      <p class="gallery-caption"></p>
+    </div>
+    <div>
+      <img src="../assets/images/chef7.jpg" alt="Food 1" class="gallery-image">
+      <p class="gallery-caption"></p>
+    </div>
+    <div>
+      <img src="../assets/images/chef8.jpg" alt="Food 1" class="gallery-image">
+      <p class="gallery-caption"></p>
+    </div>
+    <div>
+      <img src="../assets/images/chef9.jpg" alt="Food 1" class="gallery-image">
+      <p class="gallery-caption"></p>
+    </div>
+    <div>
+      <img src="../assets/images/chef10.jpg" alt="Food 1" class="gallery-image">
+      <p class="gallery-caption"></p>
+    </div>
+    <div>
+      <img src="../assets/images/chef11.jpg" alt="Food 1" class="gallery-image">
+      <p class="gallery-caption"></p>
+    </div>
+    <div>
+      <img src="../assets/images/chef12.jpg" alt="Food 1" class="gallery-image">
+      <p class="gallery-caption"></p>
+    </div>
+    
   </div>
 </div>
 
