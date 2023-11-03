@@ -78,7 +78,7 @@ This is orchestral piece was inspired by Sonny 2 music with new instrumentation,
 
 ## <span style="color: #89CFF0;">Sadge in C</span>
 
-Another Synth piece that emphasizes the uses of sustain to give the piece a blurry, longing feel. It's incomplete and currently ends in the middle of a spicy transition
+Another Synth piece that emphasizes the uses of sustain to give the piece a blurry, longing feel. It's incomplete 
 
 <html>
 <body>
