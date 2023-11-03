@@ -215,7 +215,7 @@ permalink: /gallery/
 </div>
 
 <div class="gallery-container" id="spooky-gallery">
-  <h1 class="gallery-title">Spooky Gallery</h1>
+  <h1 class="gallery-title">Fall 2023</h1>
   <div class="gallery-table">
     <div>
       <img src="../assets/images/spook1.jpg" alt="Spook 1" class="gallery-image">
