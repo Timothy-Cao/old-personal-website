@@ -71,7 +71,7 @@ permalink: /gallery/
   <div class="tab active" onclick="showGallery('seasonal')">Tanning Season</div>
   <div class="tab" onclick="showGallery('spooky')">Spook Season</div>
   <div class="tab" onclick="showGallery('rabbit')">My rabbit, Pudding</div>
-  <div class="tab" onclick="showGallery('cooking')">Try not to get food poison challenge</div>
+  <div class="tab" onclick="showGallery('cooking')">Try not to get food poisoning challenge</div>
 </div>
 
 <div class="gallery-container active" id="seasonal-gallery">
