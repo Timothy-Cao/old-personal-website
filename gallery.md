@@ -138,23 +138,23 @@ permalink: /gallery/
     </div>
     <div>
       <img src="../assets/images/pudding2.png" alt="Pudding 2" class="gallery-image">
-      <p class="gallery-caption">Tranformed into bread loaf</p>
+      <p class="gallery-caption">Tranformed into loaf</p>
     </div>
     <div>
       <img src="../assets/images/pudding3.png" alt="Pudding 3" class="gallery-image">
-      <p class="gallery-caption">Pudding dreaming about bananas</p>
+      <p class="gallery-caption">Dreaming about bananas</p>
     </div>
     <div>
       <img src="../assets/images/pudding4.png" alt="Pudding 4" class="gallery-image">
-      <p class="gallery-caption">She has woken from her slumber</p>
+      <p class="gallery-caption">Woken from  slumber</p>
     </div>
     <div>
       <img src="../assets/images/pudding5.png" alt="Pudding 5" class="gallery-image">
-      <p class="gallery-caption">Pudding picking the worst spot to lounge</p>
+      <p class="gallery-caption">The worst spot to lounge</p>
     </div>
     <div>
       <img src="../assets/images/pudding6.png" alt="Pudding 6" class="gallery-image">
-      <p class="gallery-caption">Pudding stretching before the big game</p>
+      <p class="gallery-caption">Stretching before the big game</p>
     </div>
     <div>
       <img src="../assets/images/pudding7.jpg" alt="Pudding" class="gallery-image">
@@ -221,7 +221,7 @@ permalink: /gallery/
     </div>
     <div>
       <img src="../assets/images/chef9.jpg" alt="Food 1" class="gallery-image">
-      <p class="gallery-caption">Farmest Market Cheese ></p>
+      <p class="gallery-caption">Farmer's Market Cheese ></p>
     </div>
     <div>
       <img src="../assets/images/chef10.jpg" alt="Food 1" class="gallery-image">
