@@ -70,8 +70,8 @@ permalink: /gallery/
 <div class="tab-container">
   <div class="tab active" onclick="showGallery('seasonal')">Tanning Season</div>
   <div class="tab" onclick="showGallery('spooky')">Spook Season</div>
-  <div class="tab" onclick="showGallery('rabbit')">My rabbit, Pudding</div>
-  <div class="tab" onclick="showGallery('cooking')">Try not to get food poisoning challenge</div>
+  <div class="tab" onclick="showGallery('rabbit')">Rabbit Gallery</div>
+  <div class="tab" onclick="showGallery('cooking')">Cooking Gallery</div>
 </div>
 
 <div class="gallery-container active" id="seasonal-gallery">
@@ -130,7 +130,7 @@ permalink: /gallery/
 </div>
 
 <div class="gallery-container" id="rabbit-gallery">
-  <h1 class="gallery-title">Rabbit Gallery</h1>
+  <h1 class="gallery-title">Pudding the Rabbit</h1>
   <div class="gallery-table">
     <div>
       <img src="../assets/images/pudding1.png" alt="Pudding 1" class="gallery-image">
@@ -160,7 +160,7 @@ permalink: /gallery/
 </div>
 
 <div class="gallery-container" id="cooking-gallery">
-  <h1 class="gallery-title">Cooking Gallery</h1>
+  <h1 class="gallery-title">Chef in Training</h1>
   <div class="gallery-table">
       <div>
       <img src="../assets/images/chef1.jpg" alt="Food 1" class="gallery-image">
