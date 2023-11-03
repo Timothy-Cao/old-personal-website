@@ -164,51 +164,51 @@ permalink: /gallery/
   <div class="gallery-table">
       <div>
       <img src="../assets/images/chef1.jpg" alt="Food 1" class="gallery-image">
-      <p class="gallery-caption"></p>
+      <p class="gallery-caption">Meatball[4][4]</p>
     </div>
     <div>
       <img src="../assets/images/chef2.jpg" alt="Food 1" class="gallery-image">
-      <p class="gallery-caption"></p>
+      <p class="gallery-caption">Comfort Food</p>
     </div>
     <div>
       <img src="../assets/images/chef3.jpg" alt="Food 1" class="gallery-image">
-      <p class="gallery-caption"></p>
+      <p class="gallery-caption">Pasta water = secret ingredient</p>
     </div>
     <div>
       <img src="../assets/images/chef4.jpg" alt="Food 1" class="gallery-image">
-      <p class="gallery-caption"></p>
+      <p class="gallery-caption">Unknown Spicyness</p>
     </div>
     <div>
       <img src="../assets/images/chef5.jpg" alt="Food 1" class="gallery-image">
-      <p class="gallery-caption"></p>
+      <p class="gallery-caption">Pineapple on pizza? Apple on pizza.</p>
     </div>
     <div>
       <img src="../assets/images/chef6.jpg" alt="Food 1" class="gallery-image">
-      <p class="gallery-caption"></p>
+      <p class="gallery-caption">No fish egg? Shreded carrots.</p>
     </div>
     <div>
       <img src="../assets/images/chef7.jpg" alt="Food 1" class="gallery-image">
-      <p class="gallery-caption"></p>
+      <p class="gallery-caption">Hola</p>
     </div>
     <div>
       <img src="../assets/images/chef8.jpg" alt="Food 1" class="gallery-image">
-      <p class="gallery-caption"></p>
+      <p class="gallery-caption">Messy</p>
     </div>
     <div>
       <img src="../assets/images/chef9.jpg" alt="Food 1" class="gallery-image">
-      <p class="gallery-caption"></p>
+      <p class="gallery-caption">Farmest Market Cheese ></p>
     </div>
     <div>
       <img src="../assets/images/chef10.jpg" alt="Food 1" class="gallery-image">
-      <p class="gallery-caption"></p>
+      <p class="gallery-caption">Calories Galore</p>
     </div>
     <div>
       <img src="../assets/images/chef11.jpg" alt="Food 1" class="gallery-image">
-      <p class="gallery-caption"></p>
+      <p class="gallery-caption">Chicken Thigh >> Breast</p>
     </div>
     <div>
       <img src="../assets/images/chef12.jpg" alt="Food 1" class="gallery-image">
-      <p class="gallery-caption"></p>
+      <p class="gallery-caption">Guess the incoming dish</p>
     </div>
     
   </div>
