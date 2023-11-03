@@ -79,11 +79,11 @@ permalink: /gallery/
   <div class="gallery-table">
     <div>
       <img src="../assets/images/summer1.jpeg" alt="summer1" class="gallery-image">
-      <p class="gallery-caption">Cast us for your next horror movie</p>
+      <p class="gallery-caption">3 Stooges</p>
     </div>
     <div>
       <img src="../assets/images/summer2.jpg" alt="summer2" class="gallery-image">
-      <p class="gallery-caption">I'm something of a celebrity myself</p>
+      <p class="gallery-caption">I'm something of a celebrity</p>
     </div>
     <div>
       <img src="../assets/images/summer3.jpg" alt="summer3" class="gallery-image">
