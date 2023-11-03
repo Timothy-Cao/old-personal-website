@@ -50,7 +50,7 @@ This piece originally written for solo piano has been switched over to a synthes
 </body>
 </html>
 
-## <span style="color: #89CFF0;">3 Hands Unknown</span>
+## <span style="color: #89CFF0;">3 Hands</span>
 
 This 3 handed piece's motif is built off an unknown piece in past memories. The chord progresion is also inspired by another unknown piece. I had transcribed this without reference, but I had a clear idea in my head on what I wanted the chords to sound like as if I heard it before. If you know any reference material that sounds similar, let me know- I'm curious!
 
