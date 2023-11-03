@@ -156,6 +156,31 @@ permalink: /gallery/
       <img src="../assets/images/pudding6.png" alt="Pudding 6" class="gallery-image">
       <p class="gallery-caption">Pudding stretching before the big game</p>
     </div>
+    <div>
+      <img src="../assets/images/pudding7.jpg" alt="Pudding" class="gallery-image">
+      <p class="gallery-caption">On her way to hawaii</p>
+    </div>
+    <div>
+      <img src="../assets/images/pudding8.jpg" alt="Pudding 6" class="gallery-image">
+      <p class="gallery-caption">New friend!</p>
+    </div>
+    <div>
+      <img src="../assets/images/pudding9.jpg" alt="Pudding 6" class="gallery-image">
+      <p class="gallery-caption">Wearing a backpack</p>
+    </div>
+    <div>
+      <img src="../assets/images/pudding10.jpg" alt="Pudding 6" class="gallery-image">
+      <p class="gallery-caption">More flexible than me</p>
+    </div>
+    <div>
+      <img src="../assets/images/pudding11.jpg" alt="Pudding 6" class="gallery-image">
+      <p class="gallery-caption">Fort Night!</p>
+    </div>
+    <div>
+      <img src="../assets/images/pudding12.jpg" alt="Pudding 6" class="gallery-image">
+      <p class="gallery-caption">Checking out the new house</p>
+    </div>
+    
   </div>
 </div>
 
