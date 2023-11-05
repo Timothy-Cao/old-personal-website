@@ -8,6 +8,7 @@ permalink: /gallery/
   .gallery-title {
     font-size: 36px;
     margin-bottom: 20px;
+    justify-content: center;
     color: #fff;
   }
 
