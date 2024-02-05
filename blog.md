@@ -9,7 +9,7 @@ layout: page
   <img src="../assets/images/composition.jpg" alt="Composition" style="width: 150px; height: 150px;">
   <div style="margin-left: 20px; flex-grow: 1;">
     <h1 style="margin: 0; text-align: right;">Music Composition Journey</h1>
-    <a href="https://timothy-cao.github.io/blog/composition" style="text-align: right; display: block;">Join me as I attempt to vibrate the air pleasantly</a>
+    <a href="https://timothy-cao.github.io/old-personal-website/blog/composition" style="text-align: right; display: block;">Join me as I attempt to vibrate the air pleasantly</a>
     <span style="font-size: small; text-align: right; display: block; margin-top: 10px;">Last Modified: 2023 September</span>
   </div>
 </div>
@@ -18,7 +18,7 @@ layout: page
   <img src="../assets/images/puzzle.png" alt="Puzzle" style="width: 150px; height: 150px;">
   <div style="margin-left: 20px; flex-grow: 1;">
     <h1 style="margin: 0; text-align: right;">Puzzles and Quizzes</h1>
-    <a href="https://timothy-cao.github.io/blog/puzzle" style="text-align: right; display: block;">If your brain is itching for a challenge</a>
+    <a href="https://timothy-cao.github.io/old-personal-website/blog/puzzle" style="text-align: right; display: block;">If your brain is itching for a challenge</a>
     <span style="font-size: small; text-align: right; display: block; margin-top: 10px;">Last Modified: 2023 September</span>
   </div>
 </div>
@@ -27,7 +27,7 @@ layout: page
   <img src="../assets/images/desmos.png" alt="Desmos Art" style="width: 150px; height: 150px;">
   <div style="margin-left: 20px; flex-grow: 1;">
     <h1 style="margin: 0; text-align: right;">Desmos Art Journey</h1>
-    <a href="https://timothy-cao.github.io/blog/desmos" style="text-align: right; display: block;">Interested in turning math into art?</a>
+    <a href="https://timothy-cao.github.io/old-personal-website/blog/desmos" style="text-align: right; display: block;">Interested in turning math into art?</a>
     <span style="font-size: small; text-align: right; display: block; margin-top: 10px;">Last Modified: 2023 September</span>
   </div>
 </div>
@@ -36,7 +36,7 @@ layout: page
   <img src="../assets/images/animation.jpg" alt="Animation" style="width: 150px; height: 150px;">
   <div style="margin-left: 20px; flex-grow: 1;">
     <h1 style="margin: 0; text-align: right;">Animation Journey</h1>
-    <a href="https://timothy-cao.github.io/blog/animation" style="text-align: right; display: block;">Watch as I try to make scribbles move around</a>
+    <a href="https://timothy-cao.github.io/old-personal-website/blog/animation" style="text-align: right; display: block;">Watch as I try to make scribbles move around</a>
     <span style="font-size: small; text-align: right; display: block; margin-top: 10px;">Last Modified: 2023 August</span>
   </div>
 </div>
@@ -45,7 +45,7 @@ layout: page
   <img src="../assets/images/monkey.png" alt="Random" style="width: 150px; height: 150px;">
   <div style="margin-left: 20px; flex-grow: 1;">
     <h1 style="margin: 0; text-align: right;">Random</h1>
-    <a href="https://timothy-cao.github.io/blog/random" style="text-align: right; display: block;">There is no method to the madness</a>
+    <a href="https://timothy-cao.github.io/old-personal-website/blog/random" style="text-align: right; display: block;">There is no method to the madness</a>
     <span style="font-size: small; text-align: right; display: block; margin-top: 10px;">Last Modified: 2023 August</span>
   </div>
 </div>
@@ -54,7 +54,7 @@ layout: page
   <img src="../assets/images/comingsoon.png" alt="Coming Soon" style="width: 150px; height: 150px;">
   <div style="margin-left: 20px; flex-grow: 1;">
     <h1 style="margin: 0; text-align: right;">Poetry</h1>
-    <a href="https://timothy-cao.github.io/blog/comingsoon" style="text-align: right; display: block;">Under construction...</a>
+    <a href="https://timothy-cao.github.io/old-personal-website/blog/comingsoon" style="text-align: right; display: block;">Under construction...</a>
     <span style="font-size: small; text-align: right; display: block; margin-top: 10px;">Last Modified: 2023 August</span>
   </div>
 </div>
@@ -63,7 +63,7 @@ layout: page
   <img src="../assets/images/comingsoon.png" alt="Coming Soon" style="width: 150px; height: 150px;">
   <div style="margin-left: 20px; flex-grow: 1;">
     <h1 style="margin: 0; text-align: right;">Learning 한국어</h1>
-    <a href="https://timothy-cao.github.io/blog/comingsoon" style="text-align: right; display: block;">Under construction...</a>
+    <a href="https://timothy-cao.github.io/old-personal-website/blog/comingsoon" style="text-align: right; display: block;">Under construction...</a>
     <span style="font-size: small; text-align: right; display: block; margin-top: 10px;">Last Modified: 2023 August</span>
   </div>
 </div>
@@ -72,7 +72,7 @@ layout: page
   <img src="../assets/images/comingsoon.png" alt="Coming Soon" style="width: 150px; height: 150px;">
   <div style="margin-left: 20px; flex-grow: 1;">
     <h1 style="margin: 0; text-align: right;">Around the world in 80 years</h1>
-    <a href="https://timothy-cao.github.io/blog/comingsoon" style="text-align: right; display: block;">Under construction...</a>
+    <a href="https://timothy-cao.github.io/old-personal-website/blog/comingsoon" style="text-align: right; display: block;">Under construction...</a>
     <span style="font-size: small; text-align: right; display: block; margin-top: 10px;">Last Modified: 2023 August</span>
   </div>
 </div>
@@ -81,7 +81,7 @@ layout: page
   <img src="../assets/images/comingsoon.png" alt="Coming Soon" style="width: 150px; height: 150px;">
   <div style="margin-left: 20px; flex-grow: 1;">
     <h1 style="margin: 0; text-align: right;">Let him cook</h1>
-    <a href="https://timothy-cao.github.io/blog/comingsoon" style="text-align: right; display: block;">Under construction...</a>
+    <a href="https://timothy-cao.github.io/old-personal-website/blog/comingsoon" style="text-align: right; display: block;">Under construction...</a>
     <span style="font-size: small; text-align: right; display: block; margin-top: 10px;">Last Modified: 2023 August</span>
   </div>
 </div>
@@ -90,7 +90,7 @@ layout: page
   <img src="../assets/images/comingsoon.png" alt="Coming Soon" style="width: 150px; height: 150px;">
   <div style="margin-left: 20px; flex-grow: 1;">
     <h1 style="margin: 0; text-align: right;">Photography</h1>
-    <a href="https://timothy-cao.github.io/blog/comingsoon" style="text-align: right; display: block;">Under construction...</a>
+    <a href="https://timothy-cao.github.io/old-personal-website/blog/comingsoon" style="text-align: right; display: block;">Under construction...</a>
     <span style="font-size: small; text-align: right; display: block; margin-top: 10px;">Last Modified: 2023 August</span>
   </div>
 </div>
@@ -99,7 +99,7 @@ layout: page
   <img src="../assets/images/comingsoon.png" alt="Coming Soon" style="width: 150px; height: 150px;">
   <div style="margin-left: 20px; flex-grow: 1;">
     <h1 style="margin: 0; text-align: right;">Stonks📈📈</h1>
-    <a href="https://timothy-cao.github.io/blog/comingsoon" style="text-align: right; display: block;">Under construction...</a>
+    <a href="https://timothy-cao.github.io/old-personal-website/blog/comingsoon" style="text-align: right; display: block;">Under construction...</a>
     <span style="font-size: small; text-align: right; display: block; margin-top: 10px;">Last Modified: 2023 August</span>
   </div>
 </div>
